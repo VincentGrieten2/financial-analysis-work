@@ -491,8 +491,10 @@ def create_overview_sheet(wb, pdf_with_dates):
             
         for col, header in enumerate(headers, 1):
             ws.cell(row=1, column=col, value=header)
-            # Make headers bold
-            ws.cell(row=1, column=col).font = openpyxl.styles.Font(bold=True)
+            # Make headers bold and add light grey background
+            cell = ws.cell(row=1, column=col)
+            cell.font = openpyxl.styles.Font(bold=True)
+            cell.fill = openpyxl.styles.PatternFill(start_color='D3D3D3', end_color='D3D3D3', fill_type='solid')
         
         # Extract all unique rekeningcodes and their descriptions
         all_codes = {}
