@@ -10,15 +10,18 @@ import logging
 import shutil
 import openpyxl
 from openpyxl.utils import get_column_letter
+import sys
 
 # Configureer logging
+handlers = [logging.FileHandler('parser.log')]
+# Only add StreamHandler if not running as executable
+if not getattr(sys, 'frozen', False):
+    handlers.append(logging.StreamHandler())
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('parser.log'),
-        logging.StreamHandler()
-    ]
+    handlers=handlers
 )
 
 # ==============================================

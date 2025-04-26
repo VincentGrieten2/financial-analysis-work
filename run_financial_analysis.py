@@ -7,13 +7,15 @@ from gui import FinancialAnalysisGUI
 import logging
 
 # Configure logging
+handlers = [logging.FileHandler('parser.log')]
+# Only add StreamHandler if not running as executable
+if not getattr(sys, 'frozen', False):
+    handlers.append(logging.StreamHandler())
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('parser.log'),
-        logging.StreamHandler()
-    ]
+    handlers=handlers
 )
 
 def process_files(template_path: str, pdf_paths: list) -> bool:
@@ -47,9 +49,11 @@ def main():
         
     except Exception as e:
         logging.error(f"Application error: {str(e)}")
-        print(f"\nAn error occurred: {str(e)}")
-        print("Check parser.log for more details")
-        input("\nPress Enter to exit...")
+        # Only print to console if not running as executable
+        if not getattr(sys, 'frozen', False):
+            print(f"\nAn error occurred: {str(e)}")
+            print("Check parser.log for more details")
+            input("\nPress Enter to exit...")
 
 if __name__ == "__main__":
     main() 
