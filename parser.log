@@ -1,0 +1,2155 @@
+2025-04-28 14:39:58,365 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 14:39:59,233 - INFO - You are running the latest version (1.0.2)
+2025-04-28 14:40:14,566 - INFO - Processing files with template: C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/LRM_analyse_template.xlsx
+2025-04-28 14:40:14,566 - INFO - PDF files: ['C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/jaarrekening_test.pdf']
+2025-04-28 14:40:14,994 - INFO - Created new output file: financial_analysis_20250428_144014.xlsx
+2025-04-28 14:40:16,150 - INFO - Datum 31-03-2024 ingevuld in cel F7
+2025-04-28 14:40:16,151 - INFO - Cel F148 bijgewerkt met waarde 12998907.99
+2025-04-28 14:40:16,151 - INFO - Cel F149 bijgewerkt met waarde 1127131.31
+2025-04-28 14:40:16,151 - INFO - Cel F150 bijgewerkt met waarde 38215.1
+2025-04-28 14:40:16,152 - INFO - Cel F151 bijgewerkt met waarde 61128.96
+2025-04-28 14:40:16,152 - INFO - Cel F157 bijgewerkt met waarde 11481474.92
+2025-04-28 14:40:16,152 - INFO - Cel F158 bijgewerkt met waarde 21517.38
+2025-04-28 14:40:16,152 - INFO - Cel F159 bijgewerkt met waarde 1560714.85
+2025-04-28 14:40:16,152 - INFO - Cel F160 bijgewerkt met waarde 732841.28
+2025-04-28 14:40:16,153 - INFO - Cel F161 bijgewerkt met waarde 109945.4
+2025-04-28 14:40:16,153 - INFO - Cel F162 bijgewerkt met waarde -0.0
+2025-04-28 14:40:16,153 - INFO - Cel F163 bijgewerkt met waarde -0.0
+2025-04-28 14:40:16,153 - INFO - Cel F164 bijgewerkt met waarde 7194.97
+2025-04-28 14:40:16,153 - INFO - Cel F165 bijgewerkt met waarde -0.0
+2025-04-28 14:40:16,153 - INFO - Cel F170 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,153 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,154 - INFO - Cel F172 bijgewerkt met waarde 2648.85
+2025-04-28 14:40:16,154 - INFO - Cel F175 bijgewerkt met waarde 45894.83
+2025-04-28 14:40:16,154 - INFO - Cel F176 bijgewerkt met waarde -0.0
+2025-04-28 14:40:16,154 - INFO - Cel F177 bijgewerkt met waarde 38065.91
+2025-04-28 14:40:16,154 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,155 - INFO - Cel F183 bijgewerkt met waarde -189.75
+2025-04-28 14:40:16,155 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,155 - INFO - Cel F185 bijgewerkt met waarde 2206.61
+2025-04-28 14:40:16,155 - INFO - Cel F186 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,155 - INFO - Cel F189 bijgewerkt met waarde -0.0
+2025-04-28 14:40:16,155 - INFO - Cel F190 bijgewerkt met waarde -0.0
+2025-04-28 14:40:16,155 - INFO - Cel F191 bijgewerkt met waarde -0.0
+2025-04-28 14:40:16,156 - INFO - Cel F192 bijgewerkt met waarde -0.0
+2025-04-28 14:40:16,156 - INFO - Cel F193 bijgewerkt met waarde -0.0
+2025-04-28 14:40:16,156 - INFO - Cel F194 bijgewerkt met waarde -0.0
+2025-04-28 14:40:16,156 - INFO - Cel F208 bijgewerkt met waarde -27739.66
+2025-04-28 14:40:16,156 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,157 - INFO - Cel F19 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,157 - INFO - Cel F22 bijgewerkt met waarde 328.98
+2025-04-28 14:40:16,157 - INFO - Cel F23 bijgewerkt met waarde 112119.7
+2025-04-28 14:40:16,157 - INFO - Cel F24 bijgewerkt met waarde 56710.44
+2025-04-28 14:40:16,158 - INFO - Cel F25 bijgewerkt met waarde 1065924.26
+2025-04-28 14:40:16,158 - INFO - Cel F26 bijgewerkt met waarde 189343.86
+2025-04-28 14:40:16,158 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,158 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,159 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,159 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,159 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,159 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,159 - INFO - Cel F39 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,160 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,160 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,160 - INFO - Cel F49 bijgewerkt met waarde 62090.5
+2025-04-28 14:40:16,160 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,160 - INFO - Cel F51 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,160 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,161 - INFO - Cel F53 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,161 - INFO - Cel F54 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,161 - INFO - Cel F55 bijgewerkt met waarde 1127131.31
+2025-04-28 14:40:16,161 - INFO - Cel F58 bijgewerkt met waarde 1380401.49
+2025-04-28 14:40:16,161 - INFO - Cel F59 bijgewerkt met waarde 569158.81
+2025-04-28 14:40:16,162 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,162 - INFO - Cel F63 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,162 - INFO - Cel F65 bijgewerkt met waarde 197292.89
+2025-04-28 14:40:16,162 - INFO - Cel F67 bijgewerkt met waarde 35924.41
+2025-04-28 14:40:16,162 - INFO - Cel F78 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,163 - INFO - Cel F79 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,163 - INFO - Cel F81 bijgewerkt met waarde 18599.92
+2025-04-28 14:40:16,163 - INFO - Cel F83 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,163 - INFO - Cel F86 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,163 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,163 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,164 - INFO - Cel F89 bijgewerkt met waarde 822644.54
+2025-04-28 14:40:16,164 - INFO - Cel F91 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,164 - INFO - Cel F92 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,164 - INFO - Cel F94 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,164 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,165 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,165 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,165 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,165 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,165 - INFO - Cel F109 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,165 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,166 - INFO - Cel F111 bijgewerkt met waarde 757316.56
+2025-04-28 14:40:16,166 - INFO - Cel F112 bijgewerkt met waarde 40351.13
+2025-04-28 14:40:16,166 - INFO - Cel F113 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,166 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,166 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,166 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,167 - INFO - Cel F118 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,167 - INFO - Cel F121 bijgewerkt met waarde 94900.61
+2025-04-28 14:40:16,167 - INFO - Cel F123 bijgewerkt met waarde 650000.0
+2025-04-28 14:40:16,167 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,167 - INFO - Cel F126 bijgewerkt met waarde 2001752.98
+2025-04-28 14:40:16,168 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,168 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-28 14:40:16,168 - INFO - Cel F130 bijgewerkt met waarde 73915.96
+2025-04-28 14:40:16,168 - INFO - Cel F131 bijgewerkt met waarde 129844.71
+2025-04-28 14:40:16,168 - INFO - Cel F132 bijgewerkt met waarde 201898.49
+2025-04-28 14:40:16,169 - INFO - Cel F134 bijgewerkt met waarde 5201.75
+2025-04-28 14:40:16,169 - INFO - Processing PDF C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/jaarrekening_test.pdf for Overview sheet
+2025-04-28 14:40:16,607 - INFO - Extracted 227 unique rekeningcodes from C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/jaarrekening_test.pdf
+2025-04-28 14:40:16,608 - INFO - Found 227 codes in PDF C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/jaarrekening_test.pdf
+2025-04-28 14:40:16,608 - INFO - Total unique codes to be added to Overview: 227
+2025-04-28 14:40:16,611 - INFO - Successfully created Overview sheet with 227 rows
+2025-04-28 14:40:17,275 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_144014.xlsx
+2025-04-28 14:40:17,276 - INFO - Successfully processed C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/jaarrekening_test.pdf for column F
+2025-04-28 14:40:17,276 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250428_144014.xlsx
+2025-04-28 14:40:51,543 - INFO - Processing files with template: C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/LRM_analyse_template.xlsx
+2025-04-28 14:40:51,543 - INFO - PDF files: ['C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/Alu2 - Balans per 2023-03-31.pdf']
+2025-04-28 14:40:51,930 - INFO - Created new output file: financial_analysis_20250428_144051.xlsx
+2025-04-28 14:40:53,116 - INFO - Datum 31-03-2023 ingevuld in cel F7
+2025-04-28 14:40:53,117 - INFO - Cel F148 bijgewerkt met waarde 15667297.68
+2025-04-28 14:40:53,117 - INFO - Cel F149 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,118 - INFO - Cel F150 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,118 - INFO - Cel F151 bijgewerkt met waarde 57612.92
+2025-04-28 14:40:53,118 - INFO - Cel F157 bijgewerkt met waarde 12988902.78
+2025-04-28 14:40:53,118 - INFO - Cel F158 bijgewerkt met waarde 19537.46
+2025-04-28 14:40:53,118 - INFO - Cel F159 bijgewerkt met waarde 1166303.15
+2025-04-28 14:40:53,118 - INFO - Cel F160 bijgewerkt met waarde 772576.72
+2025-04-28 14:40:53,119 - INFO - Cel F161 bijgewerkt met waarde 119512.84
+2025-04-28 14:40:53,119 - INFO - Cel F162 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,119 - INFO - Cel F163 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,119 - INFO - Cel F164 bijgewerkt met waarde 5009.2
+2025-04-28 14:40:53,119 - INFO - Cel F165 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,120 - INFO - Cel F170 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,120 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,120 - INFO - Cel F172 bijgewerkt met waarde 3408.71
+2025-04-28 14:40:53,120 - INFO - Cel F175 bijgewerkt met waarde 19133.26
+2025-04-28 14:40:53,120 - INFO - Cel F176 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,120 - INFO - Cel F177 bijgewerkt met waarde 47150.93
+2025-04-28 14:40:53,121 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,121 - INFO - Cel F183 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,121 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,121 - INFO - Cel F185 bijgewerkt met waarde 826.45
+2025-04-28 14:40:53,121 - INFO - Cel F186 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,121 - INFO - Cel F189 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,122 - INFO - Cel F190 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,122 - INFO - Cel F191 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,122 - INFO - Cel F192 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,122 - INFO - Cel F193 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,122 - INFO - Cel F194 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,122 - INFO - Cel F208 bijgewerkt met waarde -16643.34
+2025-04-28 14:40:53,123 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,123 - INFO - Cel F19 bijgewerkt met waarde 11759.72
+2025-04-28 14:40:53,123 - INFO - Cel F22 bijgewerkt met waarde 576.33
+2025-04-28 14:40:53,123 - INFO - Cel F23 bijgewerkt met waarde 79388.01
+2025-04-28 14:40:53,123 - INFO - Cel F24 bijgewerkt met waarde 72435.81
+2025-04-28 14:40:53,124 - INFO - Cel F25 bijgewerkt met waarde 1121979.86
+2025-04-28 14:40:53,124 - INFO - Cel F26 bijgewerkt met waarde 92172.92
+2025-04-28 14:40:53,124 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,124 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,124 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,124 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,125 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,125 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,125 - INFO - Cel F39 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,125 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,125 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,126 - INFO - Cel F49 bijgewerkt met waarde 83607.88
+2025-04-28 14:40:53,126 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,126 - INFO - Cel F51 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,126 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,126 - INFO - Cel F53 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,126 - INFO - Cel F54 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,126 - INFO - Cel F55 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,127 - INFO - Cel F58 bijgewerkt met waarde 3868379.52
+2025-04-28 14:40:53,127 - INFO - Cel F59 bijgewerkt met waarde 891017.44
+2025-04-28 14:40:53,127 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,127 - INFO - Cel F63 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,127 - INFO - Cel F65 bijgewerkt met waarde 355101.4
+2025-04-28 14:40:53,127 - INFO - Cel F67 bijgewerkt met waarde 35146.6
+2025-04-28 14:40:53,128 - INFO - Cel F78 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,128 - INFO - Cel F79 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,128 - INFO - Cel F81 bijgewerkt met waarde 18599.92
+2025-04-28 14:40:53,128 - INFO - Cel F83 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,128 - INFO - Cel F86 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,128 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,129 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,129 - INFO - Cel F89 bijgewerkt met waarde 775984.67
+2025-04-28 14:40:53,129 - INFO - Cel F91 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,129 - INFO - Cel F92 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,129 - INFO - Cel F94 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,129 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,130 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,130 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,130 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,130 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,130 - INFO - Cel F109 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,131 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,131 - INFO - Cel F111 bijgewerkt met waarde 830530.76
+2025-04-28 14:40:53,131 - INFO - Cel F112 bijgewerkt met waarde 62037.55
+2025-04-28 14:40:53,131 - INFO - Cel F113 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,131 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,131 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,132 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,132 - INFO - Cel F118 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,132 - INFO - Cel F121 bijgewerkt met waarde 143678.2
+2025-04-28 14:40:53,132 - INFO - Cel F123 bijgewerkt met waarde 550000.0
+2025-04-28 14:40:53,132 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,132 - INFO - Cel F126 bijgewerkt met waarde 2973540.86
+2025-04-28 14:40:53,133 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,133 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-28 14:40:53,133 - INFO - Cel F130 bijgewerkt met waarde 3018.28
+2025-04-28 14:40:53,133 - INFO - Cel F131 bijgewerkt met waarde 73774.51
+2025-04-28 14:40:53,133 - INFO - Cel F132 bijgewerkt met waarde 1179940.22
+2025-04-28 14:40:53,133 - INFO - Cel F134 bijgewerkt met waarde 460.52
+2025-04-28 14:40:53,134 - INFO - Processing PDF C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/Alu2 - Balans per 2023-03-31.pdf for Overview sheet
+2025-04-28 14:40:53,486 - INFO - Extracted 220 unique rekeningcodes from C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/Alu2 - Balans per 2023-03-31.pdf
+2025-04-28 14:40:53,487 - INFO - Found 220 codes in PDF C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/Alu2 - Balans per 2023-03-31.pdf
+2025-04-28 14:40:53,487 - INFO - Total unique codes to be added to Overview: 220
+2025-04-28 14:40:53,490 - INFO - Successfully created Overview sheet with 220 rows
+2025-04-28 14:40:54,135 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_144051.xlsx
+2025-04-28 14:40:54,136 - INFO - Successfully processed C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/Alu2 - Balans per 2023-03-31.pdf for column F
+2025-04-28 14:40:54,136 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250428_144051.xlsx
+2025-04-28 14:41:16,287 - INFO - Processing files with template: C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/LRM_analyse_template.xlsx
+2025-04-28 14:41:16,287 - INFO - PDF files: ['C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf']
+2025-04-28 14:41:17,981 - INFO - Created new output file: financial_analysis_20250428_144117.xlsx
+2025-04-28 14:41:19,675 - INFO - Stopped processing at account 200000 due to duplicate value 3.106,65
+2025-04-28 14:41:21,211 - INFO - Stopped processing at account 200000 due to duplicate value 3.106,65
+2025-04-28 14:41:21,648 - INFO - Datum 31-12-2023 ingevuld in cel F7
+2025-04-28 14:41:21,649 - INFO - Cel F148 bijgewerkt met waarde 689999.57
+2025-04-28 14:41:21,649 - INFO - Cel F149 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,649 - INFO - Cel F150 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,650 - INFO - Cel F151 bijgewerkt met waarde 137421.86
+2025-04-28 14:41:21,650 - INFO - Cel F157 bijgewerkt met waarde 189000.9
+2025-04-28 14:41:21,650 - INFO - Cel F158 bijgewerkt met waarde -39013.93
+2025-04-28 14:41:21,650 - INFO - Cel F159 bijgewerkt met waarde 545703.08
+2025-04-28 14:41:21,650 - INFO - Cel F160 bijgewerkt met waarde 376519.62
+2025-04-28 14:41:21,651 - INFO - Cel F161 bijgewerkt met waarde 223656.55
+2025-04-28 14:41:21,651 - INFO - Cel F162 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,651 - INFO - Cel F163 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,651 - INFO - Cel F164 bijgewerkt met waarde 53366.25
+2025-04-28 14:41:21,651 - INFO - Cel F165 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,651 - INFO - Cel F170 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,651 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,652 - INFO - Cel F172 bijgewerkt met waarde 10020.57
+2025-04-28 14:41:21,652 - INFO - Cel F175 bijgewerkt met waarde 113751.44
+2025-04-28 14:41:21,652 - INFO - Cel F176 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,652 - INFO - Cel F177 bijgewerkt met waarde 9858.71
+2025-04-28 14:41:21,652 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,652 - INFO - Cel F183 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,653 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,653 - INFO - Cel F185 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,653 - INFO - Cel F186 bijgewerkt met waarde 163.97
+2025-04-28 14:41:21,653 - INFO - Cel F189 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,653 - INFO - Cel F190 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,653 - INFO - Cel F191 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,654 - INFO - Cel F192 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,654 - INFO - Cel F193 bijgewerkt met waarde 30000.0
+2025-04-28 14:41:21,654 - INFO - Cel F194 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,654 - INFO - Cel F208 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,654 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,654 - INFO - Cel F19 bijgewerkt met waarde 295089.19
+2025-04-28 14:41:21,655 - INFO - Cel F22 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,655 - INFO - Cel F23 bijgewerkt met waarde 174567.78
+2025-04-28 14:41:21,655 - INFO - Cel F24 bijgewerkt met waarde 14640.87
+2025-04-28 14:41:21,655 - INFO - Cel F25 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,655 - INFO - Cel F26 bijgewerkt met waarde 201245.21
+2025-04-28 14:41:21,655 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,656 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,656 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,656 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,656 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,656 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,656 - INFO - Cel F39 bijgewerkt met waarde 180.0
+2025-04-28 14:41:21,656 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,657 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,657 - INFO - Cel F49 bijgewerkt met waarde 185977.73
+2025-04-28 14:41:21,657 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,657 - INFO - Cel F51 bijgewerkt met waarde 83669.36
+2025-04-28 14:41:21,657 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,657 - INFO - Cel F53 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,658 - INFO - Cel F54 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,658 - INFO - Cel F55 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,658 - INFO - Cel F58 bijgewerkt met waarde 239307.29
+2025-04-28 14:41:21,658 - INFO - Cel F59 bijgewerkt met waarde 44669.35
+2025-04-28 14:41:21,658 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,659 - INFO - Cel F63 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,659 - INFO - Cel F65 bijgewerkt met waarde 34615.33
+2025-04-28 14:41:21,659 - INFO - Cel F67 bijgewerkt met waarde 6980.03
+2025-04-28 14:41:21,659 - INFO - Cel F78 bijgewerkt met waarde 3.27
+2025-04-28 14:41:21,659 - INFO - Cel F79 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,659 - INFO - Cel F81 bijgewerkt met waarde 977435.45
+2025-04-28 14:41:21,660 - INFO - Cel F83 bijgewerkt met waarde 4.91
+2025-04-28 14:41:21,660 - INFO - Cel F86 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,660 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,660 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,660 - INFO - Cel F89 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,661 - INFO - Cel F91 bijgewerkt met waarde 8.9
+2025-04-28 14:41:21,661 - INFO - Cel F92 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,661 - INFO - Cel F94 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,661 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,661 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,662 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,662 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,662 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,662 - INFO - Cel F109 bijgewerkt met waarde 53000.0
+2025-04-28 14:41:21,662 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,663 - INFO - Cel F111 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,663 - INFO - Cel F112 bijgewerkt met waarde 154074.18
+2025-04-28 14:41:21,663 - INFO - Cel F113 bijgewerkt met waarde 9000.0
+2025-04-28 14:41:21,663 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,663 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,663 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,664 - INFO - Cel F118 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,664 - INFO - Cel F121 bijgewerkt met waarde 84181.15
+2025-04-28 14:41:21,664 - INFO - Cel F123 bijgewerkt met waarde 150000.0
+2025-04-28 14:41:21,664 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,664 - INFO - Cel F126 bijgewerkt met waarde 361174.32
+2025-04-28 14:41:21,664 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,665 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-28 14:41:21,665 - INFO - Cel F130 bijgewerkt met waarde 23833.02
+2025-04-28 14:41:21,665 - INFO - Cel F131 bijgewerkt met waarde 24060.64
+2025-04-28 14:41:21,665 - INFO - Cel F132 bijgewerkt met waarde 47066.0
+2025-04-28 14:41:21,665 - INFO - Cel F134 bijgewerkt met waarde 62511.42
+2025-04-28 14:41:21,666 - INFO - Processing PDF C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf for Overview sheet
+2025-04-28 14:41:23,153 - INFO - Found duplicate code with same value: 200000
+2025-04-28 14:41:23,154 - INFO - Extracted 253 unique rekeningcodes from C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-28 14:41:23,154 - INFO - Found 253 codes in PDF C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-28 14:41:23,155 - INFO - Total unique codes to be added to Overview: 253
+2025-04-28 14:41:23,158 - INFO - Successfully created Overview sheet with 253 rows
+2025-04-28 14:41:23,761 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_144117.xlsx
+2025-04-28 14:41:23,761 - INFO - Successfully processed C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf for column F
+2025-04-28 14:41:23,762 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250428_144117.xlsx
+2025-04-28 14:46:43,247 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 14:46:44,030 - INFO - You are running the latest version (1.0.2)
+2025-04-28 14:47:04,646 - INFO - Processing files with template: C:/Users/v.grieten/Downloads/LRM_analyse_template_FD.xlsx
+2025-04-28 14:47:04,647 - INFO - PDF files: ['C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf']
+2025-04-28 14:47:06,152 - INFO - Created new output file: financial_analysis_20250428_144706.xlsx
+2025-04-28 14:47:07,765 - INFO - Stopped processing at account 200000 due to duplicate value 3.106,65
+2025-04-28 14:47:09,299 - INFO - Stopped processing at account 200000 due to duplicate value 3.106,65
+2025-04-28 14:47:09,631 - INFO - Datum 31-12-2023 ingevuld in cel F7
+2025-04-28 14:47:09,632 - INFO - Cel F148 bijgewerkt met waarde 689999.57
+2025-04-28 14:47:09,632 - INFO - Cel F149 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,633 - INFO - Cel F150 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,633 - INFO - Cel F151 bijgewerkt met waarde 137421.86
+2025-04-28 14:47:09,633 - INFO - Cel F157 bijgewerkt met waarde 189000.9
+2025-04-28 14:47:09,633 - INFO - Cel F158 bijgewerkt met waarde -39013.93
+2025-04-28 14:47:09,634 - INFO - Cel F159 bijgewerkt met waarde 545703.08
+2025-04-28 14:47:09,634 - INFO - Cel F160 bijgewerkt met waarde 376519.62
+2025-04-28 14:47:09,634 - INFO - Cel F161 bijgewerkt met waarde 223656.55
+2025-04-28 14:47:09,634 - INFO - Cel F162 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,635 - INFO - Cel F163 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,635 - INFO - Cel F164 bijgewerkt met waarde 53366.25
+2025-04-28 14:47:09,635 - INFO - Cel F165 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,635 - INFO - Cel F170 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,636 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,636 - INFO - Cel F172 bijgewerkt met waarde 10020.57
+2025-04-28 14:47:09,636 - INFO - Cel F175 bijgewerkt met waarde 113751.44
+2025-04-28 14:47:09,636 - INFO - Cel F176 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,637 - INFO - Cel F177 bijgewerkt met waarde 9858.71
+2025-04-28 14:47:09,637 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,637 - INFO - Cel F183 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,637 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,638 - INFO - Cel F185 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,638 - INFO - Cel F186 bijgewerkt met waarde 163.97
+2025-04-28 14:47:09,638 - INFO - Cel F189 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,639 - INFO - Cel F190 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,639 - INFO - Cel F191 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,639 - INFO - Cel F192 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,639 - INFO - Cel F193 bijgewerkt met waarde 30000.0
+2025-04-28 14:47:09,640 - INFO - Cel F194 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,640 - INFO - Cel F208 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,640 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,640 - INFO - Cel F17 bijgewerkt met waarde 412.53
+2025-04-28 14:47:09,641 - INFO - Cel F19 bijgewerkt met waarde 295089.19
+2025-04-28 14:47:09,641 - INFO - Cel F22 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,641 - INFO - Cel F23 bijgewerkt met waarde 174567.78
+2025-04-28 14:47:09,641 - INFO - Cel F24 bijgewerkt met waarde 14640.87
+2025-04-28 14:47:09,642 - INFO - Cel F25 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,642 - INFO - Cel F26 bijgewerkt met waarde 201245.21
+2025-04-28 14:47:09,642 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,643 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,643 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,643 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,643 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,643 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,643 - INFO - Cel F39 bijgewerkt met waarde 180.0
+2025-04-28 14:47:09,644 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,644 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,644 - INFO - Cel F49 bijgewerkt met waarde 185977.73
+2025-04-28 14:47:09,644 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,644 - INFO - Cel F51 bijgewerkt met waarde 83669.36
+2025-04-28 14:47:09,644 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,645 - INFO - Cel F53 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,645 - INFO - Cel F54 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,645 - INFO - Cel F55 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,645 - INFO - Cel F58 bijgewerkt met waarde 239307.29
+2025-04-28 14:47:09,645 - INFO - Cel F59 bijgewerkt met waarde 44669.35
+2025-04-28 14:47:09,645 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,646 - INFO - Cel F63 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,646 - INFO - Cel F65 bijgewerkt met waarde 34615.33
+2025-04-28 14:47:09,646 - INFO - Cel F67 bijgewerkt met waarde 6980.03
+2025-04-28 14:47:09,646 - INFO - Cel F78 bijgewerkt met waarde 3.27
+2025-04-28 14:47:09,646 - INFO - Cel F79 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,646 - INFO - Cel F81 bijgewerkt met waarde 977435.45
+2025-04-28 14:47:09,646 - INFO - Cel F83 bijgewerkt met waarde 4.91
+2025-04-28 14:47:09,647 - INFO - Cel F86 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,647 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,647 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,647 - INFO - Cel F89 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,647 - INFO - Cel F91 bijgewerkt met waarde 8.9
+2025-04-28 14:47:09,647 - INFO - Cel F92 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,647 - INFO - Cel F94 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,648 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,648 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,648 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,648 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,648 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,648 - INFO - Cel F109 bijgewerkt met waarde 53000.0
+2025-04-28 14:47:09,649 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,649 - INFO - Cel F111 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,649 - INFO - Cel F112 bijgewerkt met waarde 154074.18
+2025-04-28 14:47:09,649 - INFO - Cel F113 bijgewerkt met waarde 9000.0
+2025-04-28 14:47:09,649 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,649 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,649 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,650 - INFO - Cel F118 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,650 - INFO - Cel F121 bijgewerkt met waarde 84181.15
+2025-04-28 14:47:09,650 - INFO - Cel F123 bijgewerkt met waarde 150000.0
+2025-04-28 14:47:09,650 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,650 - INFO - Cel F126 bijgewerkt met waarde 361174.32
+2025-04-28 14:47:09,650 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,651 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-28 14:47:09,651 - INFO - Cel F130 bijgewerkt met waarde 23833.02
+2025-04-28 14:47:09,651 - INFO - Cel F131 bijgewerkt met waarde 24060.64
+2025-04-28 14:47:09,651 - INFO - Cel F132 bijgewerkt met waarde 47066.0
+2025-04-28 14:47:09,651 - INFO - Cel F134 bijgewerkt met waarde 62511.42
+2025-04-28 14:47:09,652 - INFO - Processing PDF C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf for Overview sheet
+2025-04-28 14:47:11,230 - INFO - Found duplicate code with same value: 200000
+2025-04-28 14:47:11,230 - INFO - Extracted 253 unique rekeningcodes from C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-28 14:47:11,231 - INFO - Found 253 codes in PDF C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-28 14:47:11,231 - INFO - Total unique codes to be added to Overview: 253
+2025-04-28 14:47:11,235 - INFO - Successfully created Overview sheet with 253 rows
+2025-04-28 14:47:11,972 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_144706.xlsx
+2025-04-28 14:47:11,972 - INFO - Successfully processed C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf for column F
+2025-04-28 14:47:11,973 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250428_144706.xlsx
+2025-04-28 14:53:50,791 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 14:53:51,567 - INFO - You are running the latest version (1.0.2)
+2025-04-28 14:53:59,116 - INFO - Processing files with template: C:/Users/v.grieten/Downloads/LRM_analyse_template_FD.xlsx
+2025-04-28 14:53:59,116 - INFO - PDF files: ['C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf']
+2025-04-28 14:53:59,470 - INFO - Created new output file: financial_analysis_20250428_145359.xlsx
+2025-04-28 14:54:00,460 - INFO - Datum 30-09-2024 ingevuld in cel F7
+2025-04-28 14:54:00,461 - INFO - Cel F148 bijgewerkt met waarde 433594.19
+2025-04-28 14:54:00,461 - INFO - Cel F149 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,461 - INFO - Cel F150 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,462 - INFO - Cel F151 bijgewerkt met waarde 4365.4
+2025-04-28 14:54:00,462 - INFO - Cel F157 bijgewerkt met waarde 151004.13
+2025-04-28 14:54:00,462 - INFO - Cel F158 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,462 - INFO - Cel F159 bijgewerkt met waarde 279942.33
+2025-04-28 14:54:00,463 - INFO - Cel F160 bijgewerkt met waarde 126091.37
+2025-04-28 14:54:00,463 - INFO - Cel F161 bijgewerkt met waarde 46881.07
+2025-04-28 14:54:00,463 - INFO - Cel F162 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,463 - INFO - Cel F163 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,464 - INFO - Cel F164 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,464 - INFO - Cel F165 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,464 - INFO - Cel F170 bijgewerkt met waarde 11.12
+2025-04-28 14:54:00,464 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,464 - INFO - Cel F172 bijgewerkt met waarde 1314.08
+2025-04-28 14:54:00,465 - INFO - Cel F175 bijgewerkt met waarde 2935.76
+2025-04-28 14:54:00,465 - INFO - Cel F176 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,465 - INFO - Cel F177 bijgewerkt met waarde 667.52
+2025-04-28 14:54:00,465 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,466 - INFO - Cel F183 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,466 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,466 - INFO - Cel F185 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,466 - INFO - Cel F186 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,467 - INFO - Cel F189 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,467 - INFO - Cel F190 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,467 - INFO - Cel F191 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,468 - INFO - Cel F192 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,468 - INFO - Cel F193 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,468 - INFO - Cel F194 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,468 - INFO - Cel F208 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,469 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,469 - INFO - Cel F17 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,469 - INFO - Cel F19 bijgewerkt met waarde 72287.64
+2025-04-28 14:54:00,470 - INFO - Cel F22 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,470 - INFO - Cel F23 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,470 - INFO - Cel F24 bijgewerkt met waarde 16595.02
+2025-04-28 14:54:00,470 - INFO - Cel F25 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,471 - INFO - Cel F26 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,471 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,471 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,471 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,471 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,472 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,472 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,472 - INFO - Cel F39 bijgewerkt met waarde 3534.0
+2025-04-28 14:54:00,472 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,472 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,472 - INFO - Cel F49 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,473 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,473 - INFO - Cel F51 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,473 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,473 - INFO - Cel F53 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,473 - INFO - Cel F54 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,473 - INFO - Cel F55 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,473 - INFO - Cel F58 bijgewerkt met waarde 13868.88
+2025-04-28 14:54:00,474 - INFO - Cel F59 bijgewerkt met waarde 19334.27
+2025-04-28 14:54:00,474 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,474 - INFO - Cel F63 bijgewerkt met waarde 40000.0
+2025-04-28 14:54:00,474 - INFO - Cel F65 bijgewerkt met waarde 154712.74
+2025-04-28 14:54:00,474 - INFO - Cel F67 bijgewerkt met waarde 303.11
+2025-04-28 14:54:00,474 - INFO - Cel F78 bijgewerkt met waarde 489654.18
+2025-04-28 14:54:00,474 - INFO - Cel F79 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,475 - INFO - Cel F81 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,475 - INFO - Cel F83 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,475 - INFO - Cel F86 bijgewerkt met waarde 1860.0
+2025-04-28 14:54:00,475 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,475 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,475 - INFO - Cel F89 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,476 - INFO - Cel F91 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,476 - INFO - Cel F92 bijgewerkt met waarde -239249.01
+2025-04-28 14:54:00,476 - INFO - Cel F94 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,476 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,476 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,476 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,477 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,477 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,477 - INFO - Cel F109 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,477 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,477 - INFO - Cel F111 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,478 - INFO - Cel F112 bijgewerkt met waarde 1839.5
+2025-04-28 14:54:00,478 - INFO - Cel F113 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,478 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,478 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,478 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,478 - INFO - Cel F118 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,478 - INFO - Cel F121 bijgewerkt met waarde 1199.29
+2025-04-28 14:54:00,479 - INFO - Cel F123 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,479 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,479 - INFO - Cel F126 bijgewerkt met waarde 123364.45
+2025-04-28 14:54:00,479 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,479 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,479 - INFO - Cel F130 bijgewerkt met waarde 500.0
+2025-04-28 14:54:00,480 - INFO - Cel F131 bijgewerkt met waarde 25026.21
+2025-04-28 14:54:00,480 - INFO - Cel F132 bijgewerkt met waarde 84641.6
+2025-04-28 14:54:00,480 - INFO - Cel F134 bijgewerkt met waarde 0.0
+2025-04-28 14:54:00,481 - INFO - Processing PDF C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf for Overview sheet
+2025-04-28 14:54:00,783 - INFO - Extracted 85 unique rekeningcodes from C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf
+2025-04-28 14:54:00,784 - INFO - Found 85 codes in PDF C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf
+2025-04-28 14:54:00,784 - INFO - Total unique codes to be added to Overview: 85
+2025-04-28 14:54:00,785 - INFO - Successfully created Overview sheet with 85 rows
+2025-04-28 14:54:01,413 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_145359.xlsx
+2025-04-28 14:54:01,413 - INFO - Successfully processed C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf for column F
+2025-04-28 14:54:01,413 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250428_145359.xlsx
+2025-04-28 15:03:01,563 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 15:05:10,900 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 15:05:11,501 - INFO - You are running the latest version (1.0.2)
+2025-04-28 15:05:11,580 - ERROR - Application error: bad event type or keysym "Drop"
+2025-04-28 15:09:33,586 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 15:09:34,301 - INFO - You are running the latest version (1.0.2)
+2025-04-28 15:11:28,845 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 15:11:29,497 - INFO - You are running the latest version (1.0.2)
+2025-04-28 15:14:02,838 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 15:14:03,496 - INFO - You are running the latest version (1.0.2)
+2025-04-28 15:14:26,555 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 15:14:27,168 - INFO - You are running the latest version (1.0.2)
+2025-04-28 15:18:40,878 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 15:18:41,537 - INFO - You are running the latest version (1.0.2)
+2025-04-28 15:21:19,127 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 15:21:19,792 - INFO - You are running the latest version (1.0.2)
+2025-04-28 15:23:47,541 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 15:23:48,358 - INFO - You are running the latest version (1.0.2)
+2025-04-28 15:25:31,755 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 15:25:32,418 - INFO - You are running the latest version (1.0.2)
+2025-04-28 15:26:11,678 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 15:26:12,290 - INFO - You are running the latest version (1.0.2)
+2025-04-28 15:26:21,244 - INFO - Processing files with template: C:/Users/v.grieten/Downloads/LRM_analyse_template_FD.xlsx
+2025-04-28 15:26:21,245 - INFO - PDF files: ['C:/Users/v.grieten/Downloads/2024-00505064.pdf', 'C:/Users/v.grieten/Downloads/PitchBook_MC2_Technologies_2025_04_28_09_49_27.pdf', 'C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf', 'C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf', 'C:/Users/v.grieten/Downloads/volledige BALANS PER 31 DECEMBER 2024 (VERSIE 2).pdf']
+2025-04-28 15:26:23,546 - ERROR - No valid date found in C:/Users/v.grieten/Downloads/PitchBook_MC2_Technologies_2025_04_28_09_49_27.pdf
+2025-04-28 15:26:27,597 - INFO - Created new output file: financial_analysis_20250428_152627.xlsx
+2025-04-28 15:26:32,322 - INFO - Datum 31-12-2024 ingevuld in cel F7
+2025-04-28 15:26:32,323 - INFO - Cel F148 bijgewerkt met waarde 508.2
+2025-04-28 15:26:32,323 - INFO - Cel F149 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,324 - INFO - Cel F150 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,324 - INFO - Cel F151 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,324 - INFO - Cel F157 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,325 - INFO - Cel F158 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,325 - INFO - Cel F159 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,325 - INFO - Cel F160 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,325 - INFO - Cel F161 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,326 - INFO - Cel F162 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,326 - INFO - Cel F163 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,326 - INFO - Cel F164 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,326 - INFO - Cel F165 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,326 - INFO - Cel F170 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,327 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,327 - INFO - Cel F172 bijgewerkt met waarde 847.0
+2025-04-28 15:26:32,327 - INFO - Cel F175 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,327 - INFO - Cel F176 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,327 - INFO - Cel F177 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,327 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,327 - INFO - Cel F183 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,328 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,328 - INFO - Cel F185 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,328 - INFO - Cel F186 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,328 - INFO - Cel F189 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,329 - INFO - Cel F190 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,329 - INFO - Cel F191 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,329 - INFO - Cel F192 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,329 - INFO - Cel F193 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,330 - INFO - Cel F194 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,330 - INFO - Cel F208 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,330 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,330 - INFO - Cel F17 bijgewerkt met waarde 180892.93
+2025-04-28 15:26:32,330 - INFO - Cel F19 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,330 - INFO - Cel F22 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,331 - INFO - Cel F23 bijgewerkt met waarde 2365.55
+2025-04-28 15:26:32,331 - INFO - Cel F24 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,331 - INFO - Cel F25 bijgewerkt met waarde 18164.52
+2025-04-28 15:26:32,331 - INFO - Cel F26 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,331 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,332 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,332 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,332 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,332 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,332 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,332 - INFO - Cel F39 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,333 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,333 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,333 - INFO - Cel F49 bijgewerkt met waarde 3675.38
+2025-04-28 15:26:32,333 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,333 - INFO - Cel F51 bijgewerkt met waarde -487.63
+2025-04-28 15:26:32,333 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,334 - INFO - Cel F53 bijgewerkt met waarde 8923.79
+2025-04-28 15:26:32,334 - INFO - Cel F54 bijgewerkt met waarde 20216.08
+2025-04-28 15:26:32,334 - INFO - Cel F55 bijgewerkt met waarde 25875.85
+2025-04-28 15:26:32,334 - INFO - Cel F58 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,334 - INFO - Cel F59 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,335 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,335 - INFO - Cel F63 bijgewerkt met waarde 3090.34
+2025-04-28 15:26:32,335 - INFO - Cel F65 bijgewerkt met waarde -544.5
+2025-04-28 15:26:32,335 - INFO - Cel F67 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,335 - INFO - Cel F78 bijgewerkt met waarde 245400.97
+2025-04-28 15:26:32,335 - INFO - Cel F79 bijgewerkt met waarde -52564.01
+2025-04-28 15:26:32,336 - INFO - Cel F81 bijgewerkt met waarde -768.74
+2025-04-28 15:26:32,336 - INFO - Cel F83 bijgewerkt met waarde 11734.58
+2025-04-28 15:26:32,336 - INFO - Cel F86 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,336 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,336 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,336 - INFO - Cel F89 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,337 - INFO - Cel F91 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,337 - INFO - Cel F92 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,337 - INFO - Cel F94 bijgewerkt met waarde 242.0
+2025-04-28 15:26:32,337 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,337 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,337 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,338 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,338 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,338 - INFO - Cel F109 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,338 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,338 - INFO - Cel F111 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,339 - INFO - Cel F112 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,339 - INFO - Cel F113 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,339 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,339 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,339 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,339 - INFO - Cel F118 bijgewerkt met waarde 17093.43
+2025-04-28 15:26:32,339 - INFO - Cel F121 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,340 - INFO - Cel F123 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,340 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,340 - INFO - Cel F126 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,340 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,340 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,340 - INFO - Cel F130 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,341 - INFO - Cel F131 bijgewerkt met waarde 6993.8
+2025-04-28 15:26:32,341 - INFO - Cel F132 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,341 - INFO - Cel F134 bijgewerkt met waarde 0.0
+2025-04-28 15:26:32,342 - INFO - Processing PDF C:/Users/v.grieten/Downloads/2024-00505064.pdf for Overview sheet
+2025-04-28 15:26:34,293 - INFO - Extracted 0 unique rekeningcodes from C:/Users/v.grieten/Downloads/2024-00505064.pdf
+2025-04-28 15:26:34,294 - INFO - Found 0 codes in PDF C:/Users/v.grieten/Downloads/2024-00505064.pdf
+2025-04-28 15:26:34,294 - INFO - Processing PDF C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf for Overview sheet
+2025-04-28 15:26:34,596 - INFO - Extracted 85 unique rekeningcodes from C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf
+2025-04-28 15:26:34,596 - INFO - Found 85 codes in PDF C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf
+2025-04-28 15:26:34,597 - INFO - Processing PDF C:/Users/v.grieten/Downloads/volledige BALANS PER 31 DECEMBER 2024 (VERSIE 2).pdf for Overview sheet
+2025-04-28 15:26:36,838 - INFO - Extracted 141 unique rekeningcodes from C:/Users/v.grieten/Downloads/volledige BALANS PER 31 DECEMBER 2024 (VERSIE 2).pdf
+2025-04-28 15:26:36,839 - INFO - Found 141 codes in PDF C:/Users/v.grieten/Downloads/volledige BALANS PER 31 DECEMBER 2024 (VERSIE 2).pdf
+2025-04-28 15:26:36,839 - INFO - Total unique codes to be added to Overview: 226
+2025-04-28 15:26:36,844 - INFO - Successfully created Overview sheet with 226 rows
+2025-04-28 15:26:37,519 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_152627.xlsx
+2025-04-28 15:26:37,520 - INFO - Successfully processed C:/Users/v.grieten/Downloads/volledige BALANS PER 31 DECEMBER 2024 (VERSIE 2).pdf for column F
+2025-04-28 15:26:38,581 - INFO - Datum 30-09-2024 ingevuld in cel E7
+2025-04-28 15:26:38,581 - INFO - Cel E148 bijgewerkt met waarde 433594.19
+2025-04-28 15:26:38,581 - INFO - Cel E149 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,582 - INFO - Cel E150 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,582 - INFO - Cel E151 bijgewerkt met waarde 4365.4
+2025-04-28 15:26:38,582 - INFO - Cel E157 bijgewerkt met waarde 151004.13
+2025-04-28 15:26:38,582 - INFO - Cel E158 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,582 - INFO - Cel E159 bijgewerkt met waarde 279942.33
+2025-04-28 15:26:38,582 - INFO - Cel E160 bijgewerkt met waarde 126091.37
+2025-04-28 15:26:38,583 - INFO - Cel E161 bijgewerkt met waarde 46881.07
+2025-04-28 15:26:38,583 - INFO - Cel E162 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,583 - INFO - Cel E163 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,583 - INFO - Cel E164 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,583 - INFO - Cel E165 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,583 - INFO - Cel E170 bijgewerkt met waarde 11.12
+2025-04-28 15:26:38,584 - INFO - Cel E171 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,584 - INFO - Cel E172 bijgewerkt met waarde 1314.08
+2025-04-28 15:26:38,584 - INFO - Cel E175 bijgewerkt met waarde 2935.76
+2025-04-28 15:26:38,584 - INFO - Cel E176 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,584 - INFO - Cel E177 bijgewerkt met waarde 667.52
+2025-04-28 15:26:38,584 - INFO - Cel E182 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,584 - INFO - Cel E183 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,585 - INFO - Cel E184 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,585 - INFO - Cel E185 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,585 - INFO - Cel E186 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,585 - INFO - Cel E189 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,585 - INFO - Cel E190 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,585 - INFO - Cel E191 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,585 - INFO - Cel E192 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,586 - INFO - Cel E193 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,586 - INFO - Cel E194 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,586 - INFO - Cel E208 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,586 - INFO - Cel E210 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,586 - INFO - Cel E17 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,586 - INFO - Cel E19 bijgewerkt met waarde 72287.64
+2025-04-28 15:26:38,587 - INFO - Cel E22 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,587 - INFO - Cel E23 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,587 - INFO - Cel E24 bijgewerkt met waarde 16595.02
+2025-04-28 15:26:38,587 - INFO - Cel E25 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,587 - INFO - Cel E26 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,588 - INFO - Cel E27 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,588 - INFO - Cel E31 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,588 - INFO - Cel E32 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,588 - INFO - Cel E35 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,588 - INFO - Cel E36 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,589 - INFO - Cel E38 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,589 - INFO - Cel E39 bijgewerkt met waarde 3534.0
+2025-04-28 15:26:38,589 - INFO - Cel E44 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,589 - INFO - Cel E45 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,589 - INFO - Cel E49 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,589 - INFO - Cel E50 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,590 - INFO - Cel E51 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,591 - INFO - Cel E52 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,591 - INFO - Cel E53 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,592 - INFO - Cel E54 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,592 - INFO - Cel E55 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,592 - INFO - Cel E58 bijgewerkt met waarde 13868.88
+2025-04-28 15:26:38,592 - INFO - Cel E59 bijgewerkt met waarde 19334.27
+2025-04-28 15:26:38,592 - INFO - Cel E62 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,593 - INFO - Cel E63 bijgewerkt met waarde 40000.0
+2025-04-28 15:26:38,593 - INFO - Cel E65 bijgewerkt met waarde 154712.74
+2025-04-28 15:26:38,593 - INFO - Cel E67 bijgewerkt met waarde 303.11
+2025-04-28 15:26:38,593 - INFO - Cel E78 bijgewerkt met waarde 489654.18
+2025-04-28 15:26:38,593 - INFO - Cel E79 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,593 - INFO - Cel E81 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,594 - INFO - Cel E83 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,594 - INFO - Cel E86 bijgewerkt met waarde 1860.0
+2025-04-28 15:26:38,594 - INFO - Cel E87 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,594 - INFO - Cel E88 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,594 - INFO - Cel E89 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,594 - INFO - Cel E91 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,595 - INFO - Cel E92 bijgewerkt met waarde -239249.01
+2025-04-28 15:26:38,595 - INFO - Cel E94 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,595 - INFO - Cel E99 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,595 - INFO - Cel E100 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,595 - INFO - Cel E101 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,595 - INFO - Cel E102 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,595 - INFO - Cel E103 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,596 - INFO - Cel E109 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,596 - INFO - Cel E110 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,596 - INFO - Cel E111 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,596 - INFO - Cel E112 bijgewerkt met waarde 1839.5
+2025-04-28 15:26:38,596 - INFO - Cel E113 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,596 - INFO - Cel E115 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,597 - INFO - Cel E116 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,597 - INFO - Cel E117 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,597 - INFO - Cel E118 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,597 - INFO - Cel E121 bijgewerkt met waarde 1199.29
+2025-04-28 15:26:38,597 - INFO - Cel E123 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,597 - INFO - Cel E124 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,598 - INFO - Cel E126 bijgewerkt met waarde 123364.45
+2025-04-28 15:26:38,598 - INFO - Cel E127 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,598 - INFO - Cel E128 bijgewerkt met waarde 0.0
+2025-04-28 15:26:38,598 - INFO - Cel E130 bijgewerkt met waarde 500.0
+2025-04-28 15:26:38,598 - INFO - Cel E131 bijgewerkt met waarde 25026.21
+2025-04-28 15:26:38,598 - INFO - Cel E132 bijgewerkt met waarde 84641.6
+2025-04-28 15:26:38,599 - INFO - Cel E134 bijgewerkt met waarde 0.0
+2025-04-28 15:26:39,238 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_152627.xlsx
+2025-04-28 15:26:39,239 - INFO - Successfully processed C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf for column E
+2025-04-28 15:26:43,339 - INFO - Datum 31-03-2024 ingevuld in cel D7
+2025-04-28 15:26:43,340 - INFO - Cel D148 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,340 - INFO - Cel D149 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,340 - INFO - Cel D150 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,340 - INFO - Cel D151 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,341 - INFO - Cel D157 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,341 - INFO - Cel D158 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,341 - INFO - Cel D159 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,341 - INFO - Cel D160 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,341 - INFO - Cel D161 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,341 - INFO - Cel D162 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,342 - INFO - Cel D163 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,342 - INFO - Cel D164 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,342 - INFO - Cel D165 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,342 - INFO - Cel D170 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,342 - INFO - Cel D171 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,342 - INFO - Cel D172 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,342 - INFO - Cel D175 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,343 - INFO - Cel D176 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,343 - INFO - Cel D177 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,343 - INFO - Cel D182 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,343 - INFO - Cel D183 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,343 - INFO - Cel D184 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,343 - INFO - Cel D185 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,344 - INFO - Cel D186 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,344 - INFO - Cel D189 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,344 - INFO - Cel D190 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,344 - INFO - Cel D191 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,344 - INFO - Cel D192 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,344 - INFO - Cel D193 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,345 - INFO - Cel D194 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,345 - INFO - Cel D208 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,345 - INFO - Cel D210 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,345 - INFO - Cel D17 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,345 - INFO - Cel D19 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,345 - INFO - Cel D22 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,346 - INFO - Cel D23 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,346 - INFO - Cel D24 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,346 - INFO - Cel D25 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,346 - INFO - Cel D26 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,346 - INFO - Cel D27 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,346 - INFO - Cel D31 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,346 - INFO - Cel D32 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,347 - INFO - Cel D35 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,347 - INFO - Cel D36 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,347 - INFO - Cel D38 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,347 - INFO - Cel D39 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,347 - INFO - Cel D44 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,348 - INFO - Cel D45 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,348 - INFO - Cel D49 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,348 - INFO - Cel D50 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,348 - INFO - Cel D51 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,348 - INFO - Cel D52 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,349 - INFO - Cel D53 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,349 - INFO - Cel D54 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,349 - INFO - Cel D55 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,349 - INFO - Cel D58 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,349 - INFO - Cel D59 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,349 - INFO - Cel D62 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,350 - INFO - Cel D63 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,350 - INFO - Cel D65 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,350 - INFO - Cel D67 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,350 - INFO - Cel D78 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,350 - INFO - Cel D79 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,351 - INFO - Cel D81 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,351 - INFO - Cel D83 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,351 - INFO - Cel D86 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,351 - INFO - Cel D87 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,351 - INFO - Cel D88 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,351 - INFO - Cel D89 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,352 - INFO - Cel D91 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,352 - INFO - Cel D92 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,352 - INFO - Cel D94 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,352 - INFO - Cel D99 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,352 - INFO - Cel D100 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,352 - INFO - Cel D101 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,352 - INFO - Cel D102 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,353 - INFO - Cel D103 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,353 - INFO - Cel D109 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,353 - INFO - Cel D110 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,353 - INFO - Cel D111 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,353 - INFO - Cel D112 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,353 - INFO - Cel D113 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,354 - INFO - Cel D115 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,354 - INFO - Cel D116 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,354 - INFO - Cel D117 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,354 - INFO - Cel D118 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,354 - INFO - Cel D121 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,354 - INFO - Cel D123 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,355 - INFO - Cel D124 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,355 - INFO - Cel D126 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,355 - INFO - Cel D127 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,355 - INFO - Cel D128 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,355 - INFO - Cel D130 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,355 - INFO - Cel D131 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,356 - INFO - Cel D132 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,356 - INFO - Cel D134 bijgewerkt met waarde 0.0
+2025-04-28 15:26:43,954 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_152627.xlsx
+2025-04-28 15:26:43,955 - INFO - Successfully processed C:/Users/v.grieten/Downloads/2024-00505064.pdf for column D
+2025-04-28 15:26:43,955 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250428_152627.xlsx
+2025-04-28 15:27:33,900 - INFO - Processing files with template: C:/Users/v.grieten/Downloads/LRM_analyse_template_FD.xlsx
+2025-04-28 15:27:33,900 - INFO - PDF files: ['C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/Alu2 - Balans 2022-03-31.pdf', 'C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/Alu2 - Balans per 2023-03-31.pdf', 'C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/jaarrekening_test.pdf', 'C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf', 'C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf']
+2025-04-28 15:27:37,286 - INFO - Created new output file: financial_analysis_20250428_152737.xlsx
+2025-04-28 15:27:38,457 - INFO - Datum 30-09-2024 ingevuld in cel F7
+2025-04-28 15:27:38,457 - INFO - Cel F148 bijgewerkt met waarde 433594.19
+2025-04-28 15:27:38,457 - INFO - Cel F149 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,457 - INFO - Cel F150 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,458 - INFO - Cel F151 bijgewerkt met waarde 4365.4
+2025-04-28 15:27:38,458 - INFO - Cel F157 bijgewerkt met waarde 151004.13
+2025-04-28 15:27:38,458 - INFO - Cel F158 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,458 - INFO - Cel F159 bijgewerkt met waarde 279942.33
+2025-04-28 15:27:38,458 - INFO - Cel F160 bijgewerkt met waarde 126091.37
+2025-04-28 15:27:38,458 - INFO - Cel F161 bijgewerkt met waarde 46881.07
+2025-04-28 15:27:38,459 - INFO - Cel F162 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,459 - INFO - Cel F163 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,459 - INFO - Cel F164 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,459 - INFO - Cel F165 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,459 - INFO - Cel F170 bijgewerkt met waarde 11.12
+2025-04-28 15:27:38,459 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,460 - INFO - Cel F172 bijgewerkt met waarde 1314.08
+2025-04-28 15:27:38,460 - INFO - Cel F175 bijgewerkt met waarde 2935.76
+2025-04-28 15:27:38,460 - INFO - Cel F176 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,460 - INFO - Cel F177 bijgewerkt met waarde 667.52
+2025-04-28 15:27:38,460 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,460 - INFO - Cel F183 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,460 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,461 - INFO - Cel F185 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,461 - INFO - Cel F186 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,461 - INFO - Cel F189 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,461 - INFO - Cel F190 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,461 - INFO - Cel F191 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,461 - INFO - Cel F192 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,461 - INFO - Cel F193 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,462 - INFO - Cel F194 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,462 - INFO - Cel F208 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,462 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,462 - INFO - Cel F17 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,462 - INFO - Cel F19 bijgewerkt met waarde 72287.64
+2025-04-28 15:27:38,462 - INFO - Cel F22 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,463 - INFO - Cel F23 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,463 - INFO - Cel F24 bijgewerkt met waarde 16595.02
+2025-04-28 15:27:38,463 - INFO - Cel F25 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,463 - INFO - Cel F26 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,463 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,463 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,464 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,464 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,464 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,464 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,464 - INFO - Cel F39 bijgewerkt met waarde 3534.0
+2025-04-28 15:27:38,464 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,465 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,465 - INFO - Cel F49 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,465 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,465 - INFO - Cel F51 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,465 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,465 - INFO - Cel F53 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,466 - INFO - Cel F54 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,466 - INFO - Cel F55 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,466 - INFO - Cel F58 bijgewerkt met waarde 13868.88
+2025-04-28 15:27:38,466 - INFO - Cel F59 bijgewerkt met waarde 19334.27
+2025-04-28 15:27:38,466 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,467 - INFO - Cel F63 bijgewerkt met waarde 40000.0
+2025-04-28 15:27:38,467 - INFO - Cel F65 bijgewerkt met waarde 154712.74
+2025-04-28 15:27:38,467 - INFO - Cel F67 bijgewerkt met waarde 303.11
+2025-04-28 15:27:38,467 - INFO - Cel F78 bijgewerkt met waarde 489654.18
+2025-04-28 15:27:38,467 - INFO - Cel F79 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,467 - INFO - Cel F81 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,467 - INFO - Cel F83 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,468 - INFO - Cel F86 bijgewerkt met waarde 1860.0
+2025-04-28 15:27:38,468 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,468 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,468 - INFO - Cel F89 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,468 - INFO - Cel F91 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,468 - INFO - Cel F92 bijgewerkt met waarde -239249.01
+2025-04-28 15:27:38,469 - INFO - Cel F94 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,469 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,469 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,469 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,469 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,469 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,470 - INFO - Cel F109 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,470 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,470 - INFO - Cel F111 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,470 - INFO - Cel F112 bijgewerkt met waarde 1839.5
+2025-04-28 15:27:38,470 - INFO - Cel F113 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,470 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,471 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,471 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,471 - INFO - Cel F118 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,471 - INFO - Cel F121 bijgewerkt met waarde 1199.29
+2025-04-28 15:27:38,471 - INFO - Cel F123 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,471 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,472 - INFO - Cel F126 bijgewerkt met waarde 123364.45
+2025-04-28 15:27:38,472 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,472 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,472 - INFO - Cel F130 bijgewerkt met waarde 500.0
+2025-04-28 15:27:38,472 - INFO - Cel F131 bijgewerkt met waarde 25026.21
+2025-04-28 15:27:38,473 - INFO - Cel F132 bijgewerkt met waarde 84641.6
+2025-04-28 15:27:38,473 - INFO - Cel F134 bijgewerkt met waarde 0.0
+2025-04-28 15:27:38,474 - INFO - Processing PDF C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf for Overview sheet
+2025-04-28 15:27:40,019 - INFO - Found duplicate code with same value: 200000
+2025-04-28 15:27:40,019 - INFO - Extracted 253 unique rekeningcodes from C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-28 15:27:40,020 - INFO - Found 253 codes in PDF C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-28 15:27:40,020 - INFO - Processing PDF C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/jaarrekening_test.pdf for Overview sheet
+2025-04-28 15:27:40,545 - INFO - Extracted 227 unique rekeningcodes from C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/jaarrekening_test.pdf
+2025-04-28 15:27:40,545 - INFO - Found 227 codes in PDF C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/jaarrekening_test.pdf
+2025-04-28 15:27:40,546 - INFO - Processing PDF C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf for Overview sheet
+2025-04-28 15:27:40,855 - INFO - Extracted 85 unique rekeningcodes from C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf
+2025-04-28 15:27:40,855 - INFO - Found 85 codes in PDF C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf
+2025-04-28 15:27:40,856 - INFO - Total unique codes to be added to Overview: 499
+2025-04-28 15:27:40,864 - INFO - Successfully created Overview sheet with 499 rows
+2025-04-28 15:27:41,539 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_152737.xlsx
+2025-04-28 15:27:41,539 - INFO - Successfully processed C:/Users/v.grieten/Downloads/Balans en resultaat conform WVV 30092024.pdf for column F
+2025-04-28 15:27:42,769 - INFO - Datum 31-03-2024 ingevuld in cel E7
+2025-04-28 15:27:42,770 - INFO - Cel E148 bijgewerkt met waarde 12998907.99
+2025-04-28 15:27:42,770 - INFO - Cel E149 bijgewerkt met waarde 1127131.31
+2025-04-28 15:27:42,770 - INFO - Cel E150 bijgewerkt met waarde 38215.1
+2025-04-28 15:27:42,771 - INFO - Cel E151 bijgewerkt met waarde 61128.96
+2025-04-28 15:27:42,771 - INFO - Cel E157 bijgewerkt met waarde 11481474.92
+2025-04-28 15:27:42,771 - INFO - Cel E158 bijgewerkt met waarde 21517.38
+2025-04-28 15:27:42,771 - INFO - Cel E159 bijgewerkt met waarde 1560714.85
+2025-04-28 15:27:42,771 - INFO - Cel E160 bijgewerkt met waarde 732841.28
+2025-04-28 15:27:42,772 - INFO - Cel E161 bijgewerkt met waarde 109945.4
+2025-04-28 15:27:42,772 - INFO - Cel E162 bijgewerkt met waarde -0.0
+2025-04-28 15:27:42,772 - INFO - Cel E163 bijgewerkt met waarde -0.0
+2025-04-28 15:27:42,772 - INFO - Cel E164 bijgewerkt met waarde 7194.97
+2025-04-28 15:27:42,772 - INFO - Cel E165 bijgewerkt met waarde -0.0
+2025-04-28 15:27:42,772 - INFO - Cel E170 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,773 - INFO - Cel E171 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,773 - INFO - Cel E172 bijgewerkt met waarde 2648.85
+2025-04-28 15:27:42,773 - INFO - Cel E175 bijgewerkt met waarde 45894.83
+2025-04-28 15:27:42,773 - INFO - Cel E176 bijgewerkt met waarde -0.0
+2025-04-28 15:27:42,773 - INFO - Cel E177 bijgewerkt met waarde 38065.91
+2025-04-28 15:27:42,774 - INFO - Cel E182 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,774 - INFO - Cel E183 bijgewerkt met waarde -189.75
+2025-04-28 15:27:42,774 - INFO - Cel E184 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,774 - INFO - Cel E185 bijgewerkt met waarde 2206.61
+2025-04-28 15:27:42,774 - INFO - Cel E186 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,774 - INFO - Cel E189 bijgewerkt met waarde -0.0
+2025-04-28 15:27:42,774 - INFO - Cel E190 bijgewerkt met waarde -0.0
+2025-04-28 15:27:42,775 - INFO - Cel E191 bijgewerkt met waarde -0.0
+2025-04-28 15:27:42,775 - INFO - Cel E192 bijgewerkt met waarde -0.0
+2025-04-28 15:27:42,775 - INFO - Cel E193 bijgewerkt met waarde -0.0
+2025-04-28 15:27:42,775 - INFO - Cel E194 bijgewerkt met waarde -0.0
+2025-04-28 15:27:42,775 - INFO - Cel E208 bijgewerkt met waarde -27739.66
+2025-04-28 15:27:42,775 - INFO - Cel E210 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,776 - INFO - Cel E17 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,776 - INFO - Cel E19 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,776 - INFO - Cel E22 bijgewerkt met waarde 328.98
+2025-04-28 15:27:42,776 - INFO - Cel E23 bijgewerkt met waarde 112119.7
+2025-04-28 15:27:42,776 - INFO - Cel E24 bijgewerkt met waarde 56710.44
+2025-04-28 15:27:42,776 - INFO - Cel E25 bijgewerkt met waarde 1065924.26
+2025-04-28 15:27:42,776 - INFO - Cel E26 bijgewerkt met waarde 189343.86
+2025-04-28 15:27:42,777 - INFO - Cel E27 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,777 - INFO - Cel E31 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,777 - INFO - Cel E32 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,777 - INFO - Cel E35 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,777 - INFO - Cel E36 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,777 - INFO - Cel E38 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,778 - INFO - Cel E39 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,778 - INFO - Cel E44 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,778 - INFO - Cel E45 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,778 - INFO - Cel E49 bijgewerkt met waarde 62090.5
+2025-04-28 15:27:42,778 - INFO - Cel E50 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,778 - INFO - Cel E51 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,778 - INFO - Cel E52 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,779 - INFO - Cel E53 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,779 - INFO - Cel E54 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,779 - INFO - Cel E55 bijgewerkt met waarde 1127131.31
+2025-04-28 15:27:42,779 - INFO - Cel E58 bijgewerkt met waarde 1380401.49
+2025-04-28 15:27:42,779 - INFO - Cel E59 bijgewerkt met waarde 569158.81
+2025-04-28 15:27:42,779 - INFO - Cel E62 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,779 - INFO - Cel E63 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,780 - INFO - Cel E65 bijgewerkt met waarde 197292.89
+2025-04-28 15:27:42,780 - INFO - Cel E67 bijgewerkt met waarde 35924.41
+2025-04-28 15:27:42,780 - INFO - Cel E78 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,780 - INFO - Cel E79 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,780 - INFO - Cel E81 bijgewerkt met waarde 18599.92
+2025-04-28 15:27:42,780 - INFO - Cel E83 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,781 - INFO - Cel E86 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,781 - INFO - Cel E87 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,781 - INFO - Cel E88 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,781 - INFO - Cel E89 bijgewerkt met waarde 822644.54
+2025-04-28 15:27:42,781 - INFO - Cel E91 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,781 - INFO - Cel E92 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,781 - INFO - Cel E94 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,782 - INFO - Cel E99 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,782 - INFO - Cel E100 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,782 - INFO - Cel E101 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,782 - INFO - Cel E102 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,782 - INFO - Cel E103 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,782 - INFO - Cel E109 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,783 - INFO - Cel E110 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,783 - INFO - Cel E111 bijgewerkt met waarde 757316.56
+2025-04-28 15:27:42,783 - INFO - Cel E112 bijgewerkt met waarde 40351.13
+2025-04-28 15:27:42,783 - INFO - Cel E113 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,783 - INFO - Cel E115 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,783 - INFO - Cel E116 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,784 - INFO - Cel E117 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,784 - INFO - Cel E118 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,784 - INFO - Cel E121 bijgewerkt met waarde 94900.61
+2025-04-28 15:27:42,784 - INFO - Cel E123 bijgewerkt met waarde 650000.0
+2025-04-28 15:27:42,784 - INFO - Cel E124 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,784 - INFO - Cel E126 bijgewerkt met waarde 2001752.98
+2025-04-28 15:27:42,785 - INFO - Cel E127 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,785 - INFO - Cel E128 bijgewerkt met waarde 0.0
+2025-04-28 15:27:42,785 - INFO - Cel E130 bijgewerkt met waarde 73915.96
+2025-04-28 15:27:42,785 - INFO - Cel E131 bijgewerkt met waarde 129844.71
+2025-04-28 15:27:42,785 - INFO - Cel E132 bijgewerkt met waarde 201898.49
+2025-04-28 15:27:42,785 - INFO - Cel E134 bijgewerkt met waarde 5201.75
+2025-04-28 15:27:43,427 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_152737.xlsx
+2025-04-28 15:27:43,427 - INFO - Successfully processed C:/Users/v.grieten/OneDrive - TR-LRM/Bureaublad/AI Tool - Offline (working)_v26_04/jaarrekening_test.pdf for column E
+2025-04-28 15:27:44,984 - INFO - Stopped processing at account 200000 due to duplicate value 3.106,65
+2025-04-28 15:27:46,637 - INFO - Stopped processing at account 200000 due to duplicate value 3.106,65
+2025-04-28 15:27:46,936 - INFO - Datum 31-12-2023 ingevuld in cel D7
+2025-04-28 15:27:46,937 - INFO - Cel D148 bijgewerkt met waarde 689999.57
+2025-04-28 15:27:46,937 - INFO - Cel D149 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,937 - INFO - Cel D150 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,937 - INFO - Cel D151 bijgewerkt met waarde 137421.86
+2025-04-28 15:27:46,938 - INFO - Cel D157 bijgewerkt met waarde 189000.9
+2025-04-28 15:27:46,938 - INFO - Cel D158 bijgewerkt met waarde -39013.93
+2025-04-28 15:27:46,938 - INFO - Cel D159 bijgewerkt met waarde 545703.08
+2025-04-28 15:27:46,938 - INFO - Cel D160 bijgewerkt met waarde 376519.62
+2025-04-28 15:27:46,938 - INFO - Cel D161 bijgewerkt met waarde 223656.55
+2025-04-28 15:27:46,938 - INFO - Cel D162 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,939 - INFO - Cel D163 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,939 - INFO - Cel D164 bijgewerkt met waarde 53366.25
+2025-04-28 15:27:46,939 - INFO - Cel D165 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,939 - INFO - Cel D170 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,939 - INFO - Cel D171 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,939 - INFO - Cel D172 bijgewerkt met waarde 10020.57
+2025-04-28 15:27:46,939 - INFO - Cel D175 bijgewerkt met waarde 113751.44
+2025-04-28 15:27:46,940 - INFO - Cel D176 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,940 - INFO - Cel D177 bijgewerkt met waarde 9858.71
+2025-04-28 15:27:46,940 - INFO - Cel D182 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,940 - INFO - Cel D183 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,940 - INFO - Cel D184 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,940 - INFO - Cel D185 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,941 - INFO - Cel D186 bijgewerkt met waarde 163.97
+2025-04-28 15:27:46,941 - INFO - Cel D189 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,941 - INFO - Cel D190 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,941 - INFO - Cel D191 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,941 - INFO - Cel D192 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,941 - INFO - Cel D193 bijgewerkt met waarde 30000.0
+2025-04-28 15:27:46,942 - INFO - Cel D194 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,942 - INFO - Cel D208 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,942 - INFO - Cel D210 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,942 - INFO - Cel D17 bijgewerkt met waarde 412.53
+2025-04-28 15:27:46,942 - INFO - Cel D19 bijgewerkt met waarde 295089.19
+2025-04-28 15:27:46,942 - INFO - Cel D22 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,943 - INFO - Cel D23 bijgewerkt met waarde 174567.78
+2025-04-28 15:27:46,943 - INFO - Cel D24 bijgewerkt met waarde 14640.87
+2025-04-28 15:27:46,943 - INFO - Cel D25 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,943 - INFO - Cel D26 bijgewerkt met waarde 201245.21
+2025-04-28 15:27:46,944 - INFO - Cel D27 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,944 - INFO - Cel D31 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,944 - INFO - Cel D32 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,944 - INFO - Cel D35 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,944 - INFO - Cel D36 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,944 - INFO - Cel D38 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,945 - INFO - Cel D39 bijgewerkt met waarde 180.0
+2025-04-28 15:27:46,945 - INFO - Cel D44 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,945 - INFO - Cel D45 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,945 - INFO - Cel D49 bijgewerkt met waarde 185977.73
+2025-04-28 15:27:46,945 - INFO - Cel D50 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,946 - INFO - Cel D51 bijgewerkt met waarde 83669.36
+2025-04-28 15:27:46,946 - INFO - Cel D52 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,946 - INFO - Cel D53 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,946 - INFO - Cel D54 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,946 - INFO - Cel D55 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,946 - INFO - Cel D58 bijgewerkt met waarde 239307.29
+2025-04-28 15:27:46,946 - INFO - Cel D59 bijgewerkt met waarde 44669.35
+2025-04-28 15:27:46,947 - INFO - Cel D62 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,947 - INFO - Cel D63 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,947 - INFO - Cel D65 bijgewerkt met waarde 34615.33
+2025-04-28 15:27:46,947 - INFO - Cel D67 bijgewerkt met waarde 6980.03
+2025-04-28 15:27:46,947 - INFO - Cel D78 bijgewerkt met waarde 3.27
+2025-04-28 15:27:46,948 - INFO - Cel D79 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,948 - INFO - Cel D81 bijgewerkt met waarde 977435.45
+2025-04-28 15:27:46,948 - INFO - Cel D83 bijgewerkt met waarde 4.91
+2025-04-28 15:27:46,948 - INFO - Cel D86 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,948 - INFO - Cel D87 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,948 - INFO - Cel D88 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,949 - INFO - Cel D89 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,949 - INFO - Cel D91 bijgewerkt met waarde 8.9
+2025-04-28 15:27:46,949 - INFO - Cel D92 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,949 - INFO - Cel D94 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,949 - INFO - Cel D99 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,949 - INFO - Cel D100 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,950 - INFO - Cel D101 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,950 - INFO - Cel D102 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,950 - INFO - Cel D103 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,950 - INFO - Cel D109 bijgewerkt met waarde 53000.0
+2025-04-28 15:27:46,950 - INFO - Cel D110 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,950 - INFO - Cel D111 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,951 - INFO - Cel D112 bijgewerkt met waarde 154074.18
+2025-04-28 15:27:46,951 - INFO - Cel D113 bijgewerkt met waarde 9000.0
+2025-04-28 15:27:46,951 - INFO - Cel D115 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,951 - INFO - Cel D116 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,951 - INFO - Cel D117 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,951 - INFO - Cel D118 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,951 - INFO - Cel D121 bijgewerkt met waarde 84181.15
+2025-04-28 15:27:46,952 - INFO - Cel D123 bijgewerkt met waarde 150000.0
+2025-04-28 15:27:46,952 - INFO - Cel D124 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,952 - INFO - Cel D126 bijgewerkt met waarde 361174.32
+2025-04-28 15:27:46,952 - INFO - Cel D127 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,952 - INFO - Cel D128 bijgewerkt met waarde 0.0
+2025-04-28 15:27:46,952 - INFO - Cel D130 bijgewerkt met waarde 23833.02
+2025-04-28 15:27:46,953 - INFO - Cel D131 bijgewerkt met waarde 24060.64
+2025-04-28 15:27:46,953 - INFO - Cel D132 bijgewerkt met waarde 47066.0
+2025-04-28 15:27:46,953 - INFO - Cel D134 bijgewerkt met waarde 62511.42
+2025-04-28 15:27:47,581 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_152737.xlsx
+2025-04-28 15:27:47,582 - INFO - Successfully processed C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf for column D
+2025-04-28 15:27:47,582 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250428_152737.xlsx
+2025-04-28 15:32:56,505 - INFO - Processing files with template: C:/Users/v.grieten/Downloads/LRM_analyse_template_FD.xlsx
+2025-04-28 15:32:56,506 - INFO - PDF files: ['C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf']
+2025-04-28 15:32:57,930 - INFO - Created new output file: financial_analysis_20250428_153257.xlsx
+2025-04-28 15:33:00,992 - INFO - Datum 31-12-2017 ingevuld in cel F7
+2025-04-28 15:33:00,993 - INFO - Cel F148 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,993 - INFO - Cel F149 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,993 - INFO - Cel F150 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,994 - INFO - Cel F151 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,994 - INFO - Cel F157 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,994 - INFO - Cel F158 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,994 - INFO - Cel F159 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,995 - INFO - Cel F160 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,995 - INFO - Cel F161 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,995 - INFO - Cel F162 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,995 - INFO - Cel F163 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,996 - INFO - Cel F164 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,996 - INFO - Cel F165 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,996 - INFO - Cel F170 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,996 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,997 - INFO - Cel F172 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,997 - INFO - Cel F175 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,997 - INFO - Cel F176 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,997 - INFO - Cel F177 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,998 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,998 - INFO - Cel F183 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,998 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,998 - INFO - Cel F185 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,999 - INFO - Cel F186 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,999 - INFO - Cel F189 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,999 - INFO - Cel F190 bijgewerkt met waarde 0.0
+2025-04-28 15:33:00,999 - INFO - Cel F191 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,000 - INFO - Cel F192 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,000 - INFO - Cel F193 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,000 - INFO - Cel F194 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,001 - INFO - Cel F208 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,001 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,001 - INFO - Cel F17 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,001 - INFO - Cel F19 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,002 - INFO - Cel F22 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,002 - INFO - Cel F23 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,002 - INFO - Cel F24 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,003 - INFO - Cel F25 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,003 - INFO - Cel F26 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,003 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,003 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,003 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,004 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,004 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,004 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,004 - INFO - Cel F39 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,005 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,005 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,005 - INFO - Cel F49 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,005 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,005 - INFO - Cel F51 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,006 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,006 - INFO - Cel F53 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,006 - INFO - Cel F54 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,006 - INFO - Cel F55 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,006 - INFO - Cel F58 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,006 - INFO - Cel F59 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,006 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,007 - INFO - Cel F63 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,007 - INFO - Cel F65 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,007 - INFO - Cel F67 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,007 - INFO - Cel F78 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,007 - INFO - Cel F79 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,007 - INFO - Cel F81 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,008 - INFO - Cel F83 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,008 - INFO - Cel F86 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,008 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,008 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,008 - INFO - Cel F89 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,008 - INFO - Cel F91 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,009 - INFO - Cel F92 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,009 - INFO - Cel F94 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,009 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,009 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,009 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,009 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,009 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,010 - INFO - Cel F109 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,010 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,010 - INFO - Cel F111 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,010 - INFO - Cel F112 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,010 - INFO - Cel F113 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,010 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,010 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,011 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,011 - INFO - Cel F118 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,011 - INFO - Cel F121 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,011 - INFO - Cel F123 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,011 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,011 - INFO - Cel F126 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,011 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,012 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,012 - INFO - Cel F130 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,012 - INFO - Cel F131 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,012 - INFO - Cel F132 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,012 - INFO - Cel F134 bijgewerkt met waarde 0.0
+2025-04-28 15:33:01,013 - INFO - Processing PDF C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf for Overview sheet
+2025-04-28 15:33:02,250 - INFO - Extracted 0 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 15:33:02,250 - INFO - Found 0 codes in PDF C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 15:33:02,250 - INFO - Total unique codes to be added to Overview: 0
+2025-04-28 15:33:02,251 - INFO - Successfully created Overview sheet with 0 rows
+2025-04-28 15:33:02,852 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_153257.xlsx
+2025-04-28 15:33:02,852 - INFO - Successfully processed C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf for column F
+2025-04-28 15:33:02,853 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250428_153257.xlsx
+2025-04-28 15:49:08,376 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 15:49:09,146 - INFO - You are running the latest version (1.0.2)
+2025-04-28 15:49:22,275 - INFO - Processing files with template: C:/Users/v.grieten/Downloads/LRM_analyse_template_FD.xlsx
+2025-04-28 15:49:22,276 - INFO - PDF files: ['C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf']
+2025-04-28 15:49:22,344 - INFO - Datum gevonden in C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf: 2023-12-31 00:00:00
+2025-04-28 15:49:23,789 - INFO - Found duplicate code with same value: 200000
+2025-04-28 15:49:23,789 - INFO - Extracted 253 unique rekeningcodes from C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-28 15:49:23,792 - INFO - Created new output file: financial_analysis_20250428_154923.xlsx
+2025-04-28 15:49:25,343 - INFO - Found duplicate code with same value: 200000
+2025-04-28 15:49:25,344 - INFO - Extracted 253 unique rekeningcodes from C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-28 15:49:26,954 - INFO - Found duplicate code with same value: 200000
+2025-04-28 15:49:26,955 - INFO - Extracted 253 unique rekeningcodes from C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-28 15:49:27,323 - INFO - Datum 31-12-2023 ingevuld in cel F7
+2025-04-28 15:49:27,324 - INFO - Cel F148 bijgewerkt met waarde 689999.57
+2025-04-28 15:49:27,324 - INFO - Cel F149 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,324 - INFO - Cel F150 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,325 - INFO - Cel F151 bijgewerkt met waarde 137421.86
+2025-04-28 15:49:27,325 - INFO - Cel F157 bijgewerkt met waarde 189000.9
+2025-04-28 15:49:27,325 - INFO - Cel F158 bijgewerkt met waarde -39013.93
+2025-04-28 15:49:27,326 - INFO - Cel F159 bijgewerkt met waarde 545703.08
+2025-04-28 15:49:27,326 - INFO - Cel F160 bijgewerkt met waarde 376519.62
+2025-04-28 15:49:27,326 - INFO - Cel F161 bijgewerkt met waarde 223656.55
+2025-04-28 15:49:27,326 - INFO - Cel F162 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,327 - INFO - Cel F163 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,327 - INFO - Cel F164 bijgewerkt met waarde 53366.25
+2025-04-28 15:49:27,327 - INFO - Cel F165 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,327 - INFO - Cel F170 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,327 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,328 - INFO - Cel F172 bijgewerkt met waarde 10020.57
+2025-04-28 15:49:27,328 - INFO - Cel F175 bijgewerkt met waarde 113751.44
+2025-04-28 15:49:27,328 - INFO - Cel F176 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,329 - INFO - Cel F177 bijgewerkt met waarde 9858.71
+2025-04-28 15:49:27,329 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,329 - INFO - Cel F183 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,330 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,330 - INFO - Cel F185 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,330 - INFO - Cel F186 bijgewerkt met waarde 163.97
+2025-04-28 15:49:27,330 - INFO - Cel F189 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,331 - INFO - Cel F190 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,331 - INFO - Cel F191 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,331 - INFO - Cel F192 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,332 - INFO - Cel F193 bijgewerkt met waarde 30000.0
+2025-04-28 15:49:27,332 - INFO - Cel F194 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,332 - INFO - Cel F208 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,332 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,333 - INFO - Cel F17 bijgewerkt met waarde 412.53
+2025-04-28 15:49:27,333 - INFO - Cel F19 bijgewerkt met waarde 295089.19
+2025-04-28 15:49:27,333 - INFO - Cel F22 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,333 - INFO - Cel F23 bijgewerkt met waarde 174567.78
+2025-04-28 15:49:27,334 - INFO - Cel F24 bijgewerkt met waarde 14640.87
+2025-04-28 15:49:27,334 - INFO - Cel F25 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,334 - INFO - Cel F26 bijgewerkt met waarde 201245.21
+2025-04-28 15:49:27,334 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,335 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,335 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,335 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,335 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,335 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,335 - INFO - Cel F39 bijgewerkt met waarde 180.0
+2025-04-28 15:49:27,336 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,336 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,336 - INFO - Cel F49 bijgewerkt met waarde 185977.73
+2025-04-28 15:49:27,336 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,336 - INFO - Cel F51 bijgewerkt met waarde 83669.36
+2025-04-28 15:49:27,336 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,337 - INFO - Cel F53 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,337 - INFO - Cel F54 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,337 - INFO - Cel F55 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,337 - INFO - Cel F58 bijgewerkt met waarde 239307.29
+2025-04-28 15:49:27,337 - INFO - Cel F59 bijgewerkt met waarde 44669.35
+2025-04-28 15:49:27,337 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,337 - INFO - Cel F63 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,337 - INFO - Cel F65 bijgewerkt met waarde 34615.33
+2025-04-28 15:49:27,338 - INFO - Cel F67 bijgewerkt met waarde 6980.03
+2025-04-28 15:49:27,338 - INFO - Cel F78 bijgewerkt met waarde 3.27
+2025-04-28 15:49:27,338 - INFO - Cel F79 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,338 - INFO - Cel F81 bijgewerkt met waarde 977435.45
+2025-04-28 15:49:27,338 - INFO - Cel F83 bijgewerkt met waarde 4.91
+2025-04-28 15:49:27,338 - INFO - Cel F86 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,339 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,339 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,339 - INFO - Cel F89 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,339 - INFO - Cel F91 bijgewerkt met waarde 8.9
+2025-04-28 15:49:27,339 - INFO - Cel F92 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,339 - INFO - Cel F94 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,340 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,340 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,340 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,340 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,340 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,340 - INFO - Cel F109 bijgewerkt met waarde 53000.0
+2025-04-28 15:49:27,340 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,341 - INFO - Cel F111 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,341 - INFO - Cel F112 bijgewerkt met waarde 154074.18
+2025-04-28 15:49:27,341 - INFO - Cel F113 bijgewerkt met waarde 9000.0
+2025-04-28 15:49:27,341 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,341 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,341 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,342 - INFO - Cel F118 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,342 - INFO - Cel F121 bijgewerkt met waarde 84181.15
+2025-04-28 15:49:27,342 - INFO - Cel F123 bijgewerkt met waarde 150000.0
+2025-04-28 15:49:27,342 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,342 - INFO - Cel F126 bijgewerkt met waarde 361174.32
+2025-04-28 15:49:27,342 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,343 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-28 15:49:27,343 - INFO - Cel F130 bijgewerkt met waarde 23833.02
+2025-04-28 15:49:27,343 - INFO - Cel F131 bijgewerkt met waarde 24060.64
+2025-04-28 15:49:27,343 - INFO - Cel F132 bijgewerkt met waarde 47066.0
+2025-04-28 15:49:27,343 - INFO - Cel F134 bijgewerkt met waarde 62511.42
+2025-04-28 15:49:27,344 - INFO - Processing PDF C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf for Overview sheet
+2025-04-28 15:49:29,012 - INFO - Found duplicate code with same value: 200000
+2025-04-28 15:49:29,013 - INFO - Extracted 253 unique rekeningcodes from C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-28 15:49:29,013 - INFO - Found 253 codes in PDF C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-28 15:49:29,013 - INFO - Total unique codes to be added to Overview: 253
+2025-04-28 15:49:29,018 - INFO - Successfully created Overview sheet with 253 rows
+2025-04-28 15:49:29,712 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_154923.xlsx
+2025-04-28 15:49:29,712 - INFO - Successfully processed C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf for column F
+2025-04-28 15:49:29,713 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250428_154923.xlsx
+2025-04-28 15:49:45,067 - INFO - Processing files with template: C:/Users/v.grieten/Downloads/LRM_analyse_template_FD.xlsx
+2025-04-28 15:49:45,067 - INFO - PDF files: ['C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf']
+2025-04-28 15:49:45,176 - INFO - Datum gevonden in C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf: 2018-05-17 00:00:00
+2025-04-28 15:49:46,544 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 15:49:46,547 - INFO - Identified 2 potential parent/summary accounts
+2025-04-28 15:49:46,547 - INFO - Extracted 45 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 15:49:46,547 - INFO - Detected NBB format in C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 15:49:46,549 - INFO - Created new output file: financial_analysis_20250428_154946.xlsx
+2025-04-28 15:49:46,550 - INFO - NBB format detected - processing using Belgian NBB format rules
+2025-04-28 15:49:47,936 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 15:49:47,938 - INFO - Identified 2 potential parent/summary accounts
+2025-04-28 15:49:47,939 - INFO - Extracted 45 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 15:49:49,257 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 15:49:49,259 - INFO - Identified 2 potential parent/summary accounts
+2025-04-28 15:49:49,260 - INFO - Extracted 45 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 15:49:49,606 - INFO - Datum 17-05-2018 ingevuld in cel F7
+2025-04-28 15:49:49,606 - INFO - Cel F148 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,607 - INFO - Cel F149 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,607 - INFO - Cel F150 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,607 - INFO - Cel F151 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,607 - INFO - Cel F157 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,608 - INFO - Cel F158 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,608 - INFO - Cel F159 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,608 - INFO - Cel F160 bijgewerkt met waarde 733335.19
+2025-04-28 15:49:49,609 - INFO - Cel F161 bijgewerkt met waarde 10479.0
+2025-04-28 15:49:49,609 - INFO - Cel F162 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,609 - INFO - Cel F163 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,610 - INFO - Cel F164 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,610 - INFO - Cel F165 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,610 - INFO - Cel F170 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,610 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,611 - INFO - Cel F172 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,611 - INFO - Cel F175 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,611 - INFO - Cel F176 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,611 - INFO - Cel F177 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,611 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,612 - INFO - Cel F183 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,612 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,612 - INFO - Cel F185 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,612 - INFO - Cel F186 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,612 - INFO - Cel F189 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,613 - INFO - Cel F190 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,613 - INFO - Cel F191 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,613 - INFO - Cel F192 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,613 - INFO - Cel F193 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,613 - INFO - Cel F194 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,613 - INFO - Cel F208 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,614 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,614 - INFO - Cel F17 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,614 - INFO - Cel F19 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,614 - INFO - Cel F22 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,614 - INFO - Cel F23 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,615 - INFO - Cel F24 bijgewerkt met waarde 14822.77
+2025-04-28 15:49:49,615 - INFO - Cel F25 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,615 - INFO - Cel F26 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,615 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,615 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,615 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,616 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,616 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,616 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,616 - INFO - Cel F39 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,616 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,617 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,617 - INFO - Cel F49 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,617 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,617 - INFO - Cel F51 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,617 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,617 - INFO - Cel F53 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,618 - INFO - Cel F54 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,618 - INFO - Cel F55 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,618 - INFO - Cel F58 bijgewerkt met waarde 411126.13
+2025-04-28 15:49:49,618 - INFO - Cel F59 bijgewerkt met waarde 71949.83
+2025-04-28 15:49:49,618 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,618 - INFO - Cel F63 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,619 - INFO - Cel F65 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,619 - INFO - Cel F67 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,619 - INFO - Cel F78 bijgewerkt met waarde 2042845.76
+2025-04-28 15:49:49,619 - INFO - Cel F79 bijgewerkt met waarde 17.27
+2025-04-28 15:49:49,619 - INFO - Cel F81 bijgewerkt met waarde 1200868.33
+2025-04-28 15:49:49,619 - INFO - Cel F83 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,620 - INFO - Cel F86 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,620 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,620 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,620 - INFO - Cel F89 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,620 - INFO - Cel F91 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,620 - INFO - Cel F92 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,621 - INFO - Cel F94 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,621 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,621 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,621 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,621 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,622 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,622 - INFO - Cel F109 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,622 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,622 - INFO - Cel F111 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,622 - INFO - Cel F112 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,622 - INFO - Cel F113 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,623 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,623 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,623 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,623 - INFO - Cel F118 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,623 - INFO - Cel F121 bijgewerkt met waarde 700367.55
+2025-04-28 15:49:49,623 - INFO - Cel F123 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,624 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,624 - INFO - Cel F126 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,624 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,624 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,624 - INFO - Cel F130 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,625 - INFO - Cel F131 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,625 - INFO - Cel F132 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,625 - INFO - Cel F134 bijgewerkt met waarde 0.0
+2025-04-28 15:49:49,626 - INFO - Processing PDF C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf for Overview sheet
+2025-04-28 15:49:51,011 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 15:49:51,013 - INFO - Identified 2 potential parent/summary accounts
+2025-04-28 15:49:51,013 - INFO - Extracted 45 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 15:49:51,013 - INFO - Found 45 codes in PDF C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 15:49:51,014 - INFO - Total unique codes to be added to Overview: 45
+2025-04-28 15:49:51,015 - INFO - Successfully created Overview sheet with 45 rows
+2025-04-28 15:49:51,633 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_154946.xlsx
+2025-04-28 15:49:51,633 - INFO - Successfully processed C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf for column F
+2025-04-28 15:49:51,634 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250428_154946.xlsx
+2025-04-28 16:13:24,324 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 16:13:25,078 - INFO - You are running the latest version (1.0.2)
+2025-04-28 16:13:32,679 - INFO - Processing files with template: C:/Users/v.grieten/Downloads/LRM_analyse_template_FD.xlsx
+2025-04-28 16:13:32,680 - INFO - PDF files: ['C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf']
+2025-04-28 16:13:32,793 - INFO - Datum gevonden in C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf: 2018-05-17 00:00:00
+2025-04-28 16:13:33,968 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:13:33,971 - INFO - Identified 12 potential parent/summary accounts
+2025-04-28 16:13:33,971 - INFO - Extracted 57 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:13:33,972 - INFO - Detected NBB format in C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:13:33,974 - INFO - Created new output file: financial_analysis_20250428_161333.xlsx
+2025-04-28 16:13:33,975 - INFO - NBB format detected - processing using Belgian NBB format rules
+2025-04-28 16:13:35,281 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:13:35,284 - INFO - Identified 12 potential parent/summary accounts
+2025-04-28 16:13:35,284 - INFO - Extracted 57 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:13:36,550 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:13:36,553 - INFO - Identified 12 potential parent/summary accounts
+2025-04-28 16:13:36,554 - INFO - Extracted 57 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:13:36,887 - INFO - Datum 17-05-2018 ingevuld in cel F7
+2025-04-28 16:13:36,887 - INFO - Cel F148 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,887 - INFO - Cel F149 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,888 - INFO - Cel F150 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,888 - INFO - Cel F151 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,888 - INFO - Cel F157 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,888 - INFO - Cel F158 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,888 - INFO - Cel F159 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,889 - INFO - Cel F160 bijgewerkt met waarde 733335.19
+2025-04-28 16:13:36,889 - INFO - Cel F161 bijgewerkt met waarde 10479.0
+2025-04-28 16:13:36,889 - INFO - Cel F162 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,889 - INFO - Cel F163 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,889 - INFO - Cel F164 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,889 - INFO - Cel F165 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,890 - INFO - Cel F170 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,890 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,890 - INFO - Cel F172 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,890 - INFO - Cel F175 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,890 - INFO - Cel F176 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,890 - INFO - Cel F177 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,891 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,891 - INFO - Cel F183 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,891 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,891 - INFO - Cel F185 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,891 - INFO - Cel F186 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,891 - INFO - Cel F189 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,891 - INFO - Cel F190 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,892 - INFO - Cel F191 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,892 - INFO - Cel F192 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,892 - INFO - Cel F193 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,892 - INFO - Cel F194 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,892 - INFO - Cel F208 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,892 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,893 - INFO - Cel F17 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,893 - INFO - Cel F19 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,893 - INFO - Cel F22 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,893 - INFO - Cel F23 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,893 - INFO - Cel F24 bijgewerkt met waarde 14822.77
+2025-04-28 16:13:36,893 - INFO - Cel F25 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,894 - INFO - Cel F26 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,894 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,894 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,894 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,894 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,894 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,895 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,895 - INFO - Cel F39 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,895 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,895 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,895 - INFO - Cel F49 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,896 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,896 - INFO - Cel F51 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,896 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,896 - INFO - Cel F53 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,896 - INFO - Cel F54 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,896 - INFO - Cel F55 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,897 - INFO - Cel F58 bijgewerkt met waarde 411126.13
+2025-04-28 16:13:36,897 - INFO - Cel F59 bijgewerkt met waarde 71949.83
+2025-04-28 16:13:36,897 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,897 - INFO - Cel F63 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,897 - INFO - Cel F65 bijgewerkt met waarde 18574.32
+2025-04-28 16:13:36,898 - INFO - Cel F67 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,898 - INFO - Cel F78 bijgewerkt met waarde 2042845.76
+2025-04-28 16:13:36,898 - INFO - Cel F79 bijgewerkt met waarde 17.27
+2025-04-28 16:13:36,898 - INFO - Cel F81 bijgewerkt met waarde 1200868.33
+2025-04-28 16:13:36,898 - INFO - Cel F83 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,899 - INFO - Cel F86 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,899 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,899 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,899 - INFO - Cel F89 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,899 - INFO - Cel F91 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,899 - INFO - Cel F92 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,900 - INFO - Cel F94 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,900 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,900 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,900 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,900 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,900 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,900 - INFO - Cel F109 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,901 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,901 - INFO - Cel F111 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,901 - INFO - Cel F112 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,901 - INFO - Cel F113 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,901 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,901 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,901 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,902 - INFO - Cel F118 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,902 - INFO - Cel F121 bijgewerkt met waarde 700367.55
+2025-04-28 16:13:36,902 - INFO - Cel F123 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,902 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,902 - INFO - Cel F126 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,902 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,902 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,903 - INFO - Cel F130 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,903 - INFO - Cel F131 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,903 - INFO - Cel F132 bijgewerkt met waarde 47477.11
+2025-04-28 16:13:36,903 - INFO - Cel F134 bijgewerkt met waarde 0.0
+2025-04-28 16:13:36,904 - INFO - Processing PDF C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf for Overview sheet
+2025-04-28 16:13:38,234 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:13:38,237 - INFO - Identified 12 potential parent/summary accounts
+2025-04-28 16:13:38,237 - INFO - Extracted 57 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:13:38,237 - INFO - Found 57 codes in PDF C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:13:38,238 - INFO - Total unique codes to be added to Overview: 57
+2025-04-28 16:13:38,243 - INFO - Successfully created Overview sheet with 57 rows
+2025-04-28 16:13:38,903 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_161333.xlsx
+2025-04-28 16:13:38,903 - INFO - Successfully processed C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf for column F
+2025-04-28 16:13:38,904 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250428_161333.xlsx
+2025-04-28 16:24:44,858 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 16:24:45,673 - INFO - You are running the latest version (1.0.2)
+2025-04-28 16:24:52,663 - INFO - Processing files with template: C:/Users/v.grieten/Downloads/LRM_analyse_template_FD.xlsx
+2025-04-28 16:24:52,664 - INFO - PDF files: ['C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf']
+2025-04-28 16:24:52,778 - INFO - Datum gevonden in C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf: 2018-05-17 00:00:00
+2025-04-28 16:24:53,990 - INFO - Extracted 0 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:24:53,993 - INFO - Created new output file: financial_analysis_20250428_162453.xlsx
+2025-04-28 16:24:55,301 - INFO - Extracted 0 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:24:56,576 - INFO - Extracted 0 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:24:56,907 - INFO - Datum 17-05-2018 ingevuld in cel F7
+2025-04-28 16:24:56,908 - INFO - Cel F148 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,908 - INFO - Cel F149 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,909 - INFO - Cel F150 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,909 - INFO - Cel F151 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,909 - INFO - Cel F157 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,909 - INFO - Cel F158 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,910 - INFO - Cel F159 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,910 - INFO - Cel F160 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,910 - INFO - Cel F161 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,910 - INFO - Cel F162 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,911 - INFO - Cel F163 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,911 - INFO - Cel F164 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,911 - INFO - Cel F165 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,911 - INFO - Cel F170 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,912 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,912 - INFO - Cel F172 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,912 - INFO - Cel F175 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,912 - INFO - Cel F176 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,913 - INFO - Cel F177 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,913 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,913 - INFO - Cel F183 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,914 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,914 - INFO - Cel F185 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,914 - INFO - Cel F186 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,915 - INFO - Cel F189 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,915 - INFO - Cel F190 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,915 - INFO - Cel F191 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,916 - INFO - Cel F192 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,916 - INFO - Cel F193 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,916 - INFO - Cel F194 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,916 - INFO - Cel F208 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,917 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,917 - INFO - Cel F17 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,917 - INFO - Cel F19 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,917 - INFO - Cel F22 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,918 - INFO - Cel F23 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,918 - INFO - Cel F24 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,918 - INFO - Cel F25 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,919 - INFO - Cel F26 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,919 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,919 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,919 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,920 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,920 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,920 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,920 - INFO - Cel F39 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,921 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,921 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,921 - INFO - Cel F49 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,921 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,921 - INFO - Cel F51 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,922 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,922 - INFO - Cel F53 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,922 - INFO - Cel F54 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,922 - INFO - Cel F55 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,922 - INFO - Cel F58 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,922 - INFO - Cel F59 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,922 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,923 - INFO - Cel F63 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,923 - INFO - Cel F65 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,923 - INFO - Cel F67 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,923 - INFO - Cel F78 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,923 - INFO - Cel F79 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,923 - INFO - Cel F81 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,923 - INFO - Cel F83 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,924 - INFO - Cel F86 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,924 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,924 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,924 - INFO - Cel F89 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,924 - INFO - Cel F91 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,924 - INFO - Cel F92 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,925 - INFO - Cel F94 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,925 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,925 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,925 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,925 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,925 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,925 - INFO - Cel F109 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,926 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,926 - INFO - Cel F111 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,926 - INFO - Cel F112 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,926 - INFO - Cel F113 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,926 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,926 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,926 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,927 - INFO - Cel F118 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,927 - INFO - Cel F121 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,927 - INFO - Cel F123 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,927 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,927 - INFO - Cel F126 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,927 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,927 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,928 - INFO - Cel F130 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,928 - INFO - Cel F131 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,928 - INFO - Cel F132 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,928 - INFO - Cel F134 bijgewerkt met waarde 0.0
+2025-04-28 16:24:56,929 - INFO - Processing PDF C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf for Overview sheet
+2025-04-28 16:24:58,279 - INFO - Extracted 0 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:24:58,279 - INFO - Found 0 codes in PDF C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:24:58,279 - INFO - Total unique codes to be added to Overview: 0
+2025-04-28 16:24:58,280 - INFO - Successfully created Overview sheet with 0 rows
+2025-04-28 16:24:58,923 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_162453.xlsx
+2025-04-28 16:24:58,923 - INFO - Successfully processed C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf for column F
+2025-04-28 16:24:58,924 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250428_162453.xlsx
+2025-04-28 16:30:25,032 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 16:30:34,327 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 16:30:34,968 - INFO - You are running the latest version (1.0.2)
+2025-04-28 16:30:48,547 - INFO - Processing files with template: C:/Users/v.grieten/Downloads/LRM_analyse_template_FD.xlsx
+2025-04-28 16:30:48,548 - INFO - PDF files: ['C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf']
+2025-04-28 16:30:48,650 - INFO - Datum gevonden in C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf: 2018-05-17 00:00:00
+2025-04-28 16:30:49,860 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:30:49,863 - INFO - Identified 12 potential parent/summary accounts
+2025-04-28 16:30:49,863 - INFO - Extracted 57 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:30:49,864 - INFO - Detected NBB format in C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:30:49,866 - INFO - Created new output file: financial_analysis_20250428_163049.xlsx
+2025-04-28 16:30:49,866 - INFO - NBB format detected - processing using Belgian NBB format rules
+2025-04-28 16:30:51,214 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:30:51,217 - INFO - Identified 12 potential parent/summary accounts
+2025-04-28 16:30:51,217 - INFO - Extracted 57 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:30:52,510 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:30:52,512 - INFO - Identified 12 potential parent/summary accounts
+2025-04-28 16:30:52,512 - INFO - Extracted 57 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:30:52,855 - INFO - Datum 17-05-2018 ingevuld in cel F7
+2025-04-28 16:30:52,856 - INFO - Cel F148 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,856 - INFO - Cel F149 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,857 - INFO - Cel F150 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,857 - INFO - Cel F151 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,857 - INFO - Cel F157 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,858 - INFO - Cel F158 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,858 - INFO - Cel F159 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,858 - INFO - Cel F160 bijgewerkt met waarde 733335.19
+2025-04-28 16:30:52,858 - INFO - Cel F161 bijgewerkt met waarde 10479.0
+2025-04-28 16:30:52,859 - INFO - Cel F162 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,859 - INFO - Cel F163 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,859 - INFO - Cel F164 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,859 - INFO - Cel F165 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,860 - INFO - Cel F170 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,860 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,860 - INFO - Cel F172 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,860 - INFO - Cel F175 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,861 - INFO - Cel F176 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,861 - INFO - Cel F177 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,861 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,861 - INFO - Cel F183 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,862 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,862 - INFO - Cel F185 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,862 - INFO - Cel F186 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,862 - INFO - Cel F189 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,862 - INFO - Cel F190 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,862 - INFO - Cel F191 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,863 - INFO - Cel F192 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,863 - INFO - Cel F193 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,863 - INFO - Cel F194 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,863 - INFO - Cel F208 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,863 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,863 - INFO - Cel F17 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,864 - INFO - Cel F19 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,864 - INFO - Cel F22 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,864 - INFO - Cel F23 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,864 - INFO - Cel F24 bijgewerkt met waarde 14822.77
+2025-04-28 16:30:52,864 - INFO - Cel F25 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,864 - INFO - Cel F26 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,865 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,865 - WARNING - Cel F29 bevat een formule en wordt niet overschreven
+2025-04-28 16:30:52,865 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,865 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,865 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,865 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,865 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,866 - INFO - Cel F39 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,866 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,866 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,866 - INFO - Cel F49 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,866 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,867 - INFO - Cel F51 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,867 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,867 - INFO - Cel F53 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,867 - INFO - Cel F54 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,867 - INFO - Cel F55 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,867 - INFO - Cel F58 bijgewerkt met waarde 411126.13
+2025-04-28 16:30:52,868 - INFO - Cel F59 bijgewerkt met waarde 71949.83
+2025-04-28 16:30:52,868 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,868 - INFO - Cel F63 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,868 - INFO - Cel F65 bijgewerkt met waarde 18574.32
+2025-04-28 16:30:52,868 - INFO - Cel F67 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,868 - INFO - Cel F78 bijgewerkt met waarde 2042845.76
+2025-04-28 16:30:52,869 - INFO - Cel F81 bijgewerkt met waarde 1200868.33
+2025-04-28 16:30:52,869 - INFO - Cel F83 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,869 - INFO - Cel F86 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,869 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,869 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,869 - INFO - Account 14 has negative value -4712940.11, allocating to 141 (Overgedragen verlies)
+2025-04-28 16:30:52,870 - INFO - Cel F92 bijgewerkt met waarde 4712940.11
+2025-04-28 16:30:52,870 - INFO - Cel F91 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,870 - INFO - Cel F92 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,870 - INFO - Cel F94 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,870 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,870 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,871 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,871 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,871 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,871 - INFO - Cel F109 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,871 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,872 - INFO - Cel F111 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,872 - INFO - Cel F112 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,872 - INFO - Cel F113 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,872 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,872 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,873 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,873 - INFO - Cel F118 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,873 - INFO - Cel F121 bijgewerkt met waarde 700367.55
+2025-04-28 16:30:52,873 - INFO - Cel F123 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,873 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,873 - INFO - Cel F126 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,873 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,874 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,874 - INFO - Cel F130 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,874 - INFO - Cel F131 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,874 - INFO - Cel F132 bijgewerkt met waarde 47477.11
+2025-04-28 16:30:52,874 - INFO - Cel F134 bijgewerkt met waarde 0.0
+2025-04-28 16:30:52,875 - INFO - Processing PDF C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf for Overview sheet
+2025-04-28 16:30:54,240 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:30:54,242 - INFO - Identified 12 potential parent/summary accounts
+2025-04-28 16:30:54,243 - INFO - Extracted 57 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:30:54,243 - INFO - Found 57 codes in PDF C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:30:54,243 - INFO - Total unique codes to be added to Overview: 57
+2025-04-28 16:30:54,248 - INFO - Successfully created Overview sheet with 57 rows
+2025-04-28 16:30:54,886 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_163049.xlsx
+2025-04-28 16:30:54,887 - INFO - Successfully processed C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf for column F
+2025-04-28 16:30:54,887 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250428_163049.xlsx
+2025-04-28 16:32:11,829 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-28 16:32:12,458 - INFO - You are running the latest version (1.0.2)
+2025-04-28 16:32:18,583 - INFO - Processing files with template: C:/Users/v.grieten/Downloads/LRM_analyse_template_FD.xlsx
+2025-04-28 16:32:18,584 - INFO - PDF files: ['C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf']
+2025-04-28 16:32:18,684 - INFO - Datum gevonden in C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf: 2018-05-17 00:00:00
+2025-04-28 16:32:19,864 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:32:19,867 - INFO - Identified 12 potential parent/summary accounts
+2025-04-28 16:32:19,867 - INFO - Extracted 57 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:32:19,867 - INFO - Detected NBB format in C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:32:19,870 - INFO - Created new output file: financial_analysis_20250428_163219.xlsx
+2025-04-28 16:32:19,870 - INFO - NBB format detected - processing using Belgian NBB format rules
+2025-04-28 16:32:21,175 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:32:21,177 - INFO - Identified 12 potential parent/summary accounts
+2025-04-28 16:32:21,178 - INFO - Extracted 57 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:32:22,444 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:32:22,447 - INFO - Identified 12 potential parent/summary accounts
+2025-04-28 16:32:22,447 - INFO - Extracted 57 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:32:22,777 - INFO - Datum 17-05-2018 ingevuld in cel F7
+2025-04-28 16:32:22,778 - INFO - Cel F148 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,778 - INFO - Cel F149 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,779 - INFO - Cel F150 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,779 - INFO - Cel F151 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,779 - INFO - Cel F157 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,779 - INFO - Cel F158 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,780 - INFO - Cel F159 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,780 - INFO - Cel F160 bijgewerkt met waarde 733335.19
+2025-04-28 16:32:22,780 - INFO - Cel F161 bijgewerkt met waarde 10479.0
+2025-04-28 16:32:22,780 - INFO - Cel F162 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,780 - INFO - Cel F163 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,780 - INFO - Cel F164 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,780 - INFO - Cel F165 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,781 - INFO - Cel F170 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,781 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,781 - INFO - Cel F172 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,781 - INFO - Cel F175 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,781 - INFO - Cel F176 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,781 - INFO - Cel F177 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,782 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,782 - INFO - Cel F183 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,782 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,782 - INFO - Cel F185 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,782 - INFO - Cel F186 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,782 - INFO - Cel F189 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,782 - INFO - Cel F190 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,783 - INFO - Cel F191 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,783 - INFO - Cel F192 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,783 - INFO - Cel F193 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,783 - INFO - Cel F194 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,784 - INFO - Cel F208 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,784 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,784 - INFO - Cel F17 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,784 - INFO - Cel F19 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,784 - INFO - Cel F22 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,784 - INFO - Cel F23 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,785 - INFO - Cel F24 bijgewerkt met waarde 14822.77
+2025-04-28 16:32:22,785 - INFO - Cel F25 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,785 - INFO - Cel F26 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,785 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,785 - WARNING - Cel F29 bevat een formule en wordt niet overschreven
+2025-04-28 16:32:22,785 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,786 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,786 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,786 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,786 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,786 - INFO - Cel F39 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,787 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,787 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,787 - INFO - Cel F49 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,787 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,787 - INFO - Cel F51 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,787 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,788 - INFO - Cel F53 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,788 - INFO - Cel F54 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,788 - INFO - Cel F55 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,788 - INFO - Cel F58 bijgewerkt met waarde 411126.13
+2025-04-28 16:32:22,788 - INFO - Cel F59 bijgewerkt met waarde 71949.83
+2025-04-28 16:32:22,789 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,789 - INFO - Cel F63 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,789 - INFO - Cel F65 bijgewerkt met waarde 18574.32
+2025-04-28 16:32:22,789 - INFO - Cel F67 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,789 - INFO - Cel F78 bijgewerkt met waarde 2042845.76
+2025-04-28 16:32:22,789 - INFO - Cel F81 bijgewerkt met waarde 1200868.33
+2025-04-28 16:32:22,790 - INFO - Cel F83 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,790 - INFO - Cel F86 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,790 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,790 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,790 - INFO - Account 14 has negative value -4712940.11, allocating to 141 (Overgedragen verlies)
+2025-04-28 16:32:22,790 - INFO - Cel F92 bijgewerkt met waarde 4712940.11
+2025-04-28 16:32:22,790 - INFO - Cel F91 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,791 - INFO - Cel F92 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,791 - INFO - Cel F94 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,791 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,791 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,791 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,791 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,792 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,792 - INFO - Cel F109 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,792 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,792 - INFO - Cel F111 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,792 - INFO - Cel F112 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,792 - INFO - Cel F113 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,792 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,793 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,793 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,793 - INFO - Cel F118 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,793 - INFO - Cel F121 bijgewerkt met waarde 700367.55
+2025-04-28 16:32:22,793 - INFO - Cel F123 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,793 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,794 - INFO - Cel F126 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,794 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,794 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,794 - INFO - Cel F130 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,794 - INFO - Cel F131 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,794 - INFO - Cel F132 bijgewerkt met waarde 47477.11
+2025-04-28 16:32:22,794 - INFO - Cel F134 bijgewerkt met waarde 0.0
+2025-04-28 16:32:22,795 - INFO - Processing PDF C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf for Overview sheet
+2025-04-28 16:32:24,145 - INFO - No matches found with regular pattern, trying NBB format for C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:32:24,147 - INFO - Identified 12 potential parent/summary accounts
+2025-04-28 16:32:24,147 - INFO - Extracted 57 unique rekeningcodes from C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:32:24,148 - INFO - Found 57 codes in PDF C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf
+2025-04-28 16:32:24,148 - INFO - Total unique codes to be added to Overview: 57
+2025-04-28 16:32:24,153 - INFO - Successfully created Overview sheet with 57 rows
+2025-04-28 16:32:24,763 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250428_163219.xlsx
+2025-04-28 16:32:24,763 - INFO - Successfully processed C:/Users/v.grieten/Downloads/3. Ontoforce - 1I_18jaarrek.pdf for column F
+2025-04-28 16:32:24,763 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250428_163219.xlsx
+2025-04-29 11:46:52,291 - INFO - Categorie mappings succesvol aangemaakt
+2025-04-29 11:46:53,042 - INFO - You are running the latest version (1.0.2)
+2025-04-29 11:47:04,169 - INFO - Processing files with template: C:/Users/v.grieten/Downloads/LRM_analyse_template_FD.xlsx
+2025-04-29 11:47:04,170 - INFO - PDF files: ['C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf']
+2025-04-29 11:47:04,227 - INFO - Datum gevonden in C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf: 2023-12-31 00:00:00
+2025-04-29 11:47:05,718 - INFO - Found duplicate code with same value: 200000
+2025-04-29 11:47:05,719 - INFO - Extracted 253 unique rekeningcodes from C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-29 11:47:05,721 - INFO - Created new output file: financial_analysis_20250429_114705.xlsx
+2025-04-29 11:47:07,312 - INFO - Found duplicate code with same value: 200000
+2025-04-29 11:47:07,312 - INFO - Extracted 253 unique rekeningcodes from C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-29 11:47:08,858 - INFO - Found duplicate code with same value: 200000
+2025-04-29 11:47:08,859 - INFO - Extracted 253 unique rekeningcodes from C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-29 11:47:09,198 - INFO - Datum 31-12-2023 ingevuld in cel F7
+2025-04-29 11:47:09,199 - INFO - Cel F148 bijgewerkt met waarde 689999.57
+2025-04-29 11:47:09,199 - INFO - Cel F149 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,200 - INFO - Cel F150 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,200 - INFO - Cel F151 bijgewerkt met waarde 137421.86
+2025-04-29 11:47:09,200 - INFO - Cel F157 bijgewerkt met waarde 189000.9
+2025-04-29 11:47:09,201 - INFO - Cel F158 bijgewerkt met waarde -39013.93
+2025-04-29 11:47:09,201 - INFO - Cel F159 bijgewerkt met waarde 545703.08
+2025-04-29 11:47:09,201 - INFO - Cel F160 bijgewerkt met waarde 376519.62
+2025-04-29 11:47:09,201 - INFO - Cel F161 bijgewerkt met waarde 223656.55
+2025-04-29 11:47:09,201 - INFO - Cel F162 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,202 - INFO - Cel F163 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,202 - INFO - Cel F164 bijgewerkt met waarde 53366.25
+2025-04-29 11:47:09,202 - INFO - Cel F165 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,203 - INFO - Cel F170 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,203 - INFO - Cel F171 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,203 - INFO - Cel F172 bijgewerkt met waarde 10020.57
+2025-04-29 11:47:09,203 - INFO - Cel F175 bijgewerkt met waarde 113751.44
+2025-04-29 11:47:09,204 - INFO - Cel F176 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,204 - INFO - Cel F177 bijgewerkt met waarde 9858.71
+2025-04-29 11:47:09,204 - INFO - Cel F182 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,205 - INFO - Cel F183 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,205 - INFO - Cel F184 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,205 - INFO - Cel F185 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,205 - INFO - Cel F186 bijgewerkt met waarde 163.97
+2025-04-29 11:47:09,206 - INFO - Cel F189 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,206 - INFO - Cel F190 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,206 - INFO - Cel F191 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,206 - INFO - Cel F192 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,207 - INFO - Cel F193 bijgewerkt met waarde 30000.0
+2025-04-29 11:47:09,207 - INFO - Cel F194 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,207 - INFO - Cel F208 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,207 - INFO - Cel F210 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,208 - INFO - Cel F17 bijgewerkt met waarde 412.53
+2025-04-29 11:47:09,208 - INFO - Cel F19 bijgewerkt met waarde 295089.19
+2025-04-29 11:47:09,208 - INFO - Cel F22 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,208 - INFO - Cel F23 bijgewerkt met waarde 174567.78
+2025-04-29 11:47:09,209 - INFO - Cel F24 bijgewerkt met waarde 14640.87
+2025-04-29 11:47:09,209 - INFO - Cel F25 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,209 - INFO - Cel F26 bijgewerkt met waarde 201245.21
+2025-04-29 11:47:09,210 - INFO - Cel F27 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,210 - WARNING - Cel F29 bevat een formule en wordt niet overschreven
+2025-04-29 11:47:09,210 - INFO - Cel F31 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,211 - INFO - Cel F32 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,211 - INFO - Cel F35 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,211 - INFO - Cel F36 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,211 - INFO - Cel F38 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,211 - INFO - Cel F39 bijgewerkt met waarde 180.0
+2025-04-29 11:47:09,212 - INFO - Cel F44 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,212 - INFO - Cel F45 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,212 - INFO - Cel F49 bijgewerkt met waarde 185977.73
+2025-04-29 11:47:09,212 - INFO - Cel F50 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,213 - INFO - Cel F51 bijgewerkt met waarde 83669.36
+2025-04-29 11:47:09,213 - INFO - Cel F52 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,213 - INFO - Cel F53 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,213 - INFO - Cel F54 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,213 - INFO - Cel F55 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,214 - INFO - Cel F58 bijgewerkt met waarde 239307.29
+2025-04-29 11:47:09,214 - INFO - Cel F59 bijgewerkt met waarde 44669.35
+2025-04-29 11:47:09,214 - INFO - Cel F62 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,214 - INFO - Cel F63 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,214 - INFO - Cel F65 bijgewerkt met waarde 34615.33
+2025-04-29 11:47:09,215 - INFO - Cel F67 bijgewerkt met waarde 6980.03
+2025-04-29 11:47:09,215 - INFO - Cel F78 bijgewerkt met waarde 3.27
+2025-04-29 11:47:09,215 - INFO - Cel F81 bijgewerkt met waarde 977435.45
+2025-04-29 11:47:09,215 - INFO - Cel F83 bijgewerkt met waarde 4.91
+2025-04-29 11:47:09,215 - INFO - Cel F86 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,216 - INFO - Cel F87 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,216 - INFO - Cel F88 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,216 - INFO - Account 14 has positive value 0.0, allocating to 140 (Overgedragen winst)
+2025-04-29 11:47:09,216 - INFO - Cel F91 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,216 - INFO - Cel F91 bijgewerkt met waarde 8.9
+2025-04-29 11:47:09,217 - INFO - Cel F92 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,217 - INFO - Cel F94 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,217 - INFO - Cel F99 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,217 - INFO - Cel F100 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,217 - INFO - Cel F101 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,218 - INFO - Cel F102 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,218 - INFO - Cel F103 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,218 - INFO - Cel F109 bijgewerkt met waarde 53000.0
+2025-04-29 11:47:09,218 - INFO - Cel F110 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,218 - INFO - Cel F111 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,219 - INFO - Cel F112 bijgewerkt met waarde 154074.18
+2025-04-29 11:47:09,219 - INFO - Cel F113 bijgewerkt met waarde 9000.0
+2025-04-29 11:47:09,219 - INFO - Cel F115 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,219 - INFO - Cel F116 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,220 - INFO - Cel F117 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,220 - INFO - Cel F118 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,220 - INFO - Cel F121 bijgewerkt met waarde 84181.15
+2025-04-29 11:47:09,220 - INFO - Cel F123 bijgewerkt met waarde 150000.0
+2025-04-29 11:47:09,220 - INFO - Cel F124 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,221 - INFO - Cel F126 bijgewerkt met waarde 361174.32
+2025-04-29 11:47:09,221 - INFO - Cel F127 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,221 - INFO - Cel F128 bijgewerkt met waarde 0.0
+2025-04-29 11:47:09,221 - INFO - Cel F130 bijgewerkt met waarde 23833.02
+2025-04-29 11:47:09,221 - INFO - Cel F131 bijgewerkt met waarde 24060.64
+2025-04-29 11:47:09,222 - INFO - Cel F132 bijgewerkt met waarde 47066.0
+2025-04-29 11:47:09,222 - INFO - Cel F134 bijgewerkt met waarde 62511.42
+2025-04-29 11:47:09,223 - INFO - Processing PDF C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf for Overview sheet
+2025-04-29 11:47:10,832 - INFO - Found duplicate code with same value: 200000
+2025-04-29 11:47:10,833 - INFO - Extracted 253 unique rekeningcodes from C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-29 11:47:10,833 - INFO - Found 253 codes in PDF C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf
+2025-04-29 11:47:10,833 - INFO - Total unique codes to be added to Overview: 253
+2025-04-29 11:47:10,838 - INFO - Successfully created Overview sheet with 253 rows
+2025-04-29 11:47:11,549 - INFO - Workbook succesvol bijgewerkt: financial_analysis_20250429_114705.xlsx
+2025-04-29 11:47:11,550 - INFO - Successfully processed C:/Users/v.grieten/Downloads/TR FRYNS DISTILLERY 31 12 2023.pdf for column F
+2025-04-29 11:47:11,550 - INFO - Successfully processed all PDFs. Output saved to: financial_analysis_20250429_114705.xlsx

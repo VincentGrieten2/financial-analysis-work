@@ -2,14 +2,19 @@ import os
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 from pathlib import Path
-from typing import List, Callable
+from typing import List, Callable, Tuple
 import subprocess
+import win32gui
+import win32con
+import win32api
+from ctypes import windll, create_unicode_buffer, c_uint
+from ctypes.wintypes import DWORD
 
 class FinancialAnalysisGUI:
-    def __init__(self, process_callback: Callable[[str, List[str]], bool]):
+    def __init__(self, process_callback: Callable[[str, List[str]], str]):
         """
         Initialize the GUI.
-        :param process_callback: Callback function that takes (template_path, pdf_paths) and returns success boolean
+        :param process_callback: Callback function that takes (template_path, pdf_paths) and returns output_path or None on failure
         """
         self.process_callback = process_callback
         self.pdf_files: List[str] = []
@@ -26,18 +31,22 @@ class FinancialAnalysisGUI:
         self.root.grid_columnconfigure(0, weight=1)
         self.root.grid_rowconfigure(2, weight=1)
         
+        # Enable OLE drag and drop
+        windll.shell32.DragAcceptFiles(self.root.winfo_id(), True)
+        
         self._create_widgets()
+        self._setup_drag_drop()
         
     def _create_widgets(self):
         """Create all GUI widgets"""
         # Template Section
-        template_frame = ttk.LabelFrame(self.root, text="Excel Template", padding=10)
+        template_frame = ttk.LabelFrame(self.root, text="Excel Template (Drag & Drop Enabled)", padding=10)
         template_frame.grid(row=0, column=0, padx=10, pady=5, sticky="ew")
         template_frame.grid_columnconfigure(0, weight=1)
         
         self.template_label = ttk.Label(
             template_frame, 
-            text="Click 'Select Template' to choose an Excel file",
+            text="Drag & drop or click 'Select Template' to choose an Excel file",
             background='white',
             relief='solid',
             padding=5
@@ -64,13 +73,13 @@ class FinancialAnalysisGUI:
         self.clear_template_btn.grid(row=0, column=2, padx=5)
         
         # PDF Files Section
-        pdf_frame = ttk.LabelFrame(self.root, text="PDF Files (Max 3)", padding=10)
+        pdf_frame = ttk.LabelFrame(self.root, text="PDF Files (Max 5) (Drag & Drop Enabled)", padding=10)
         pdf_frame.grid(row=1, column=0, padx=10, pady=5, sticky="ew")
         pdf_frame.grid_columnconfigure(0, weight=1)
         
         self.pdf_label = ttk.Label(
             pdf_frame, 
-            text="Click 'Select PDFs' to choose PDF files",
+            text="Drag & drop or click 'Select PDFs' to choose PDF files",
             background='white',
             relief='solid',
             padding=5
@@ -138,7 +147,97 @@ class FinancialAnalysisGUI:
             state="disabled"
         )
         self.open_output_btn.grid(row=0, column=1, padx=5)
+
+    def _setup_drag_drop(self):
+        """Setup drag and drop bindings"""
+        # Get the window handle
+        hwnd = self.root.winfo_id()
         
+        # Set up the window procedure
+        old_win_proc = win32gui.SetWindowLong(
+            hwnd,
+            win32con.GWL_WNDPROC,
+            self._window_proc
+        )
+        
+        # Store the old window procedure
+        self.old_win_proc = old_win_proc
+        
+        # Visual feedback for drag and drop zones
+        for widget in (self.template_label, self.pdf_label):
+            widget.bind('<Enter>', lambda e, w=widget: self._on_drag_enter(w))
+            widget.bind('<Leave>', lambda e, w=widget: self._on_drag_leave(w))
+
+    def _get_dropped_files(self, hdrop) -> List[str]:
+        """Get the list of dropped files using shell32"""
+        result = []
+        buf_size = 1024
+        buf = create_unicode_buffer(buf_size)
+        
+        # Get count of files dropped
+        count = windll.shell32.DragQueryFileW(c_uint(hdrop), -1, None, 0)
+        
+        # Get file paths
+        for i in range(count):
+            # Get required buffer size
+            windll.shell32.DragQueryFileW(c_uint(hdrop), i, buf, buf_size)
+            result.append(buf.value)
+            
+        return result
+
+    def _window_proc(self, hwnd, msg, wparam, lparam):
+        """Handle Windows messages"""
+        try:
+            if msg == win32con.WM_DROPFILES:
+                try:
+                    # Get drop point coordinates (in screen coordinates)
+                    point = DWORD()
+                    windll.shell32.DragQueryPoint(c_uint(wparam), point)
+                    
+                    # Convert screen coordinates to window coordinates
+                    x = point.value & 0xFFFF  # Lower word
+                    y = point.value >> 16     # Upper word
+                    
+                    files = self._get_dropped_files(wparam)
+                    
+                    # Convert window coordinates to widget coordinates
+                    widget = self.root.winfo_containing(x, y)
+                    
+                    # Process the dropped files
+                    if widget == self.template_label or widget in self.template_label.winfo_children():
+                        for file in files:
+                            if file.lower().endswith('.xlsx'):
+                                self._set_template(file)
+                                break
+                            else:
+                                messagebox.showwarning("Warning", "Please drop an Excel file (.xlsx)")
+                    elif widget == self.pdf_label or widget in self.pdf_label.winfo_children():
+                        for file in files:
+                            if file.lower().endswith('.pdf'):
+                                self._add_pdf(file)
+                            else:
+                                messagebox.showwarning("Warning", "Please drop only PDF files")
+                finally:
+                    # Always ensure DragFinish is called
+                    try:
+                        windll.shell32.DragFinish(wparam)
+                    except:
+                        pass
+                return 0
+                
+            return win32gui.CallWindowProc(self.old_win_proc, hwnd, msg, wparam, lparam)
+        except Exception as e:
+            messagebox.showerror("Error", f"Error handling drop: {str(e)}")
+            return win32gui.CallWindowProc(self.old_win_proc, hwnd, msg, wparam, lparam)
+
+    def _on_drag_enter(self, widget):
+        """Visual feedback when dragging over a drop zone"""
+        widget.configure(relief='groove', background='#e6f3ff')
+
+    def _on_drag_leave(self, widget):
+        """Reset visual feedback when leaving drop zone"""
+        widget.configure(relief='solid', background='white')
+
     def _select_template(self):
         """Open file dialog to select template"""
         file_path = filedialog.askopenfilename(
@@ -176,8 +275,8 @@ class FinancialAnalysisGUI:
     
     def _add_pdf(self, path: str):
         """Add a PDF file to the list"""
-        if len(self.pdf_files) >= 3:
-            messagebox.showwarning("Warning", "Maximum 3 PDF files allowed")
+        if len(self.pdf_files) >= 5:  # Updated limit to 5
+            messagebox.showwarning("Warning", "Maximum 5 PDF files allowed")
             return
         
         if path not in self.pdf_files:
@@ -206,10 +305,10 @@ class FinancialAnalysisGUI:
     def _process_files(self):
         """Process the selected files"""
         try:
-            success = self.process_callback(self.template_file, self.pdf_files)
-            if success:
-                self.output_file = os.path.join(os.getcwd(), 'financial_analysis.xlsx')
-                messagebox.showinfo("Success", "Financial analysis completed successfully!")
+            output_path = self.process_callback(self.template_file, self.pdf_files)
+            if output_path:
+                self.output_file = output_path
+                messagebox.showinfo("Success", f"Financial analysis completed successfully!\nOutput saved to: {Path(output_path).name}")
                 self.open_output_btn.configure(state="normal")
             else:
                 messagebox.showerror("Error", "An error occurred during processing. Check parser.log for details.")

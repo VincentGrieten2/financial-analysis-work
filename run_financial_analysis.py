@@ -18,12 +18,12 @@ logging.basicConfig(
     handlers=handlers
 )
 
-def process_files(template_path: str, pdf_paths: list) -> bool:
+def process_files(template_path: str, pdf_paths: list) -> str:
     """
     Process the selected files
     :param template_path: Path to the Excel template
     :param pdf_paths: List of paths to PDF files
-    :return: True if processing was successful, False otherwise
+    :return: Path to the output file if successful, None otherwise
     """
     try:
         # Log the processing attempt
@@ -31,11 +31,17 @@ def process_files(template_path: str, pdf_paths: list) -> bool:
         logging.info(f"PDF files: {pdf_paths}")
         
         # Process the files
-        return process_pdfs(template_path, pdf_paths)
+        success = process_pdfs(template_path, pdf_paths)
+        if success:
+            # Get the most recent output file
+            files = [f for f in os.listdir() if f.startswith('financial_analysis_') and f.endswith('.xlsx')]
+            if files:
+                return max(files, key=lambda x: os.path.getctime(x))
+        return None
         
     except Exception as e:
         logging.error(f"Error processing files: {str(e)}")
-        return False
+        return None
 
 def main():
     try:
