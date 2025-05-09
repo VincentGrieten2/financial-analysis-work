@@ -241,12 +241,22 @@ def vind_categorie(rekening, mapping):
 def vind_datum_in_pdf(pdf_pad):
     """Zoek naar een datum in het PDF bestand"""
     try:
-        datum_formaten = [
+        # Day-level date formats
+        dag_formaten = [
             ('%d-%m-%Y', r'\b\d{2}-\d{2}-\d{4}\b'),  # DD-MM-YYYY
             ('%d/%m/%Y', r'\b\d{2}/\d{2}/\d{4}\b'),  # DD/MM/YYYY
             ('%Y-%m-%d', r'\b\d{4}-\d{2}-\d{2}\b'),  # YYYY-MM-DD
             ('%Y/%m/%d', r'\b\d{4}/\d{2}/\d{2}\b'),  # YYYY/MM/DD
             ('%d.%m.%Y', r'\b\d{2}\.\d{2}\.\d{4}\b'),  # DD.MM.YYYY
+        ]
+        
+        # Month-level date formats
+        maand_formaten = [
+            ('%m-%Y', r'\b\d{2}-\d{4}\b'),  # MM-YYYY
+            ('%m/%Y', r'\b\d{2}/\d{4}\b'),  # MM/YYYY
+            ('%Y-%m', r'\b\d{4}-\d{2}\b'),  # YYYY-MM
+            ('%Y/%m', r'\b\d{4}/\d{2}\b'),  # YYYY/MM
+            ('%m.\d{4}', r'\b\d{2}\.\d{4}\b'),  # MM.YYYY
         ]
         
         gevonden_datums = []
@@ -255,7 +265,8 @@ def vind_datum_in_pdf(pdf_pad):
             for page in pdf.pages:
                 text = page.extract_text()
                 if text:
-                    for datum_format, regex_pattern in datum_formaten:
+                    # First try to find day-level dates
+                    for datum_format, regex_pattern in dag_formaten:
                         matches = re.findall(regex_pattern, text)
                         for match in matches:
                             try:
@@ -267,6 +278,21 @@ def vind_datum_in_pdf(pdf_pad):
                                     gevonden_datums.append(datum)
                             except ValueError:
                                 continue
+                    
+                    # If no day-level dates found with last day of month, try month-level dates
+                    if not gevonden_datums:
+                        for datum_format, regex_pattern in maand_formaten:
+                            matches = re.findall(regex_pattern, text)
+                            for match in matches:
+                                try:
+                                    # Parse the month and year
+                                    datum = datetime.strptime(match, datum_format)
+                                    # Convert to last day of the month
+                                    volgende_maand = datum.replace(day=28) + timedelta(days=4)
+                                    laatste_dag = volgende_maand - timedelta(days=volgende_maand.day)
+                                    gevonden_datums.append(laatste_dag)
+                                except ValueError:
+                                    continue
         
         if gevonden_datums:
             return max(gevonden_datums)
