@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 from JRR_automate import process_pdfs
 from updater import get_update_status
-from gui import FinancialAnalysisGUI
+from gui import FinancialAnalysisGUI, QApplication
 import logging
 
 # Configure logging
@@ -43,9 +43,15 @@ def main():
         update_status = get_update_status()
         logging.info(update_status)
         
+        # Initialize QApplication
+        app = QApplication(sys.argv)
+        
         # Create and run the GUI
         gui = FinancialAnalysisGUI(process_files)
-        gui.run()
+        gui.show()  # Show the window
+        
+        # Start the event loop
+        sys.exit(app.exec())
         
     except Exception as e:
         logging.error(f"Application error: {str(e)}")
