@@ -80,6 +80,7 @@ resultaten_cat = [
 # BALANS CATEGORIEËN
 balans_cat = [
     # VASTE ACTIVA
+    ("AZ", "20", "Oprichtingskosten"),
     ("BA", "21", "Immateriële vaste activa"),
     ("BB", "22", "Terreinen en gebouwen"),
     ("BC", "23", "Installaties, machines en uitrust."),
@@ -704,6 +705,7 @@ categorie_naar_cel = {
     '77': 'C210',    # Regularisering van belastingen
     
     # Balans
+    '20': 'C17',     # Oprichtingskosten
     '21': 'C19',     # Immateriële vaste activa
     '22': 'C22',     # Terreinen en gebouwen
     '23': 'C23',     # Installaties, machines en uitrusting
