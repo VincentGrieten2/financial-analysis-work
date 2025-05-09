@@ -842,8 +842,8 @@ def process_pdfs(template_path, pdf_files):
                 break
                 
             try:
-                # Map the PDFs to specific columns (H for most recent, G for second, etc.)
-                kolom = chr(ord('H') - i)  # H, G, F, E, D
+                # Map the PDFs to specific columns (F for most recent, E for second, etc.)
+                kolom = chr(ord('F') - i)  # F, E, D, C, B
                 
                 # Process the PDF for both result and balance data
                 resultaten_sommen, resultaten_omschrijvingen, resultaten_codes = verwerk_pdf_sectie(pdf_file, resultaten_mapping, resultaten_cat)
