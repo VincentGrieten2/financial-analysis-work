@@ -243,8 +243,13 @@ def vind_categorie(rekening, mapping):
 def vind_datum_in_pdf(pdf_pad):
     """Zoek naar een datum in het PDF bestand"""
     try:
+<<<<<<< HEAD
         # First try full dates
         datum_formaten = [
+=======
+        # Day-level date formats
+        dag_formaten = [
+>>>>>>> new-branch-name
             ('%d-%m-%Y', r'\b\d{2}-\d{2}-\d{4}\b'),  # DD-MM-YYYY
             ('%d/%m/%Y', r'\b\d{2}/\d{2}/\d{4}\b'),  # DD/MM/YYYY
             ('%Y-%m-%d', r'\b\d{4}-\d{2}-\d{2}\b'),  # YYYY-MM-DD
@@ -253,12 +258,25 @@ def vind_datum_in_pdf(pdf_pad):
             ('%d %B %Y', r'\b\d{1,2} [A-Za-z]+ \d{4}\b'),  # DD Month YYYY
         ]
         
+<<<<<<< HEAD
         # Additional patterns to check for Belgian date formats
         belgian_date_patterns = [
             r'\b(\d{1,2})(?:st|nd|rd|th)? ([A-Za-z]+) (\d{4})\b',  # 31st December 2023
             r'\bper (\d{1,2})(?:\.| )(\d{1,2})(?:\.| )(\d{4})\b',  # per 31.12.2023 or per 31 12 2023
             r'\bafgesloten op (\d{1,2})(?:\.| )(\d{1,2})(?:\.| )(\d{4})\b',  # afgesloten op 31.12.2023
         ]
+=======
+        # Month-level date formats
+        maand_formaten = [
+            ('%m-%Y', r'\b\d{2}-\d{4}\b'),  # MM-YYYY
+            ('%m/%Y', r'\b\d{2}/\d{4}\b'),  # MM/YYYY
+            ('%Y-%m', r'\b\d{4}-\d{2}\b'),  # YYYY-MM
+            ('%Y/%m', r'\b\d{4}/\d{2}\b'),  # YYYY/MM
+            ('%m.\d{4}', r'\b\d{2}\.\d{4}\b'),  # MM.YYYY
+        ]
+        
+        gevonden_datums = []
+>>>>>>> new-branch-name
         
         # Common Belgian months in Dutch and French for date parsing
         months_nl = {
@@ -272,6 +290,7 @@ def vind_datum_in_pdf(pdf_pad):
         }
 
         with pdfplumber.open(pdf_pad) as pdf:
+<<<<<<< HEAD
             all_text = []
             for page in pdf.pages[:3]:  # Only check first 3 pages to find date faster
                 try:
@@ -348,6 +367,43 @@ def vind_datum_in_pdf(pdf_pad):
             logging.warning(f"Geen datum gevonden in {pdf_pad}")
             return None
             
+=======
+            for page in pdf.pages:
+                text = page.extract_text()
+                if text:
+                    # First try to find day-level dates
+                    for datum_format, regex_pattern in dag_formaten:
+                        matches = re.findall(regex_pattern, text)
+                        for match in matches:
+                            try:
+                                datum = datetime.strptime(match, datum_format)
+                                # Controleer of het de laatste dag van de maand is
+                                volgende_maand = datum.replace(day=28) + timedelta(days=4)
+                                laatste_dag = volgende_maand - timedelta(days=volgende_maand.day)
+                                if datum.day == laatste_dag.day:
+                                    gevonden_datums.append(datum)
+                            except ValueError:
+                                continue
+                    
+                    # If no day-level dates found with last day of month, try month-level dates
+                    if not gevonden_datums:
+                        for datum_format, regex_pattern in maand_formaten:
+                            matches = re.findall(regex_pattern, text)
+                            for match in matches:
+                                try:
+                                    # Parse the month and year
+                                    datum = datetime.strptime(match, datum_format)
+                                    # Convert to last day of the month
+                                    volgende_maand = datum.replace(day=28) + timedelta(days=4)
+                                    laatste_dag = volgende_maand - timedelta(days=volgende_maand.day)
+                                    gevonden_datums.append(laatste_dag)
+                                except ValueError:
+                                    continue
+        
+        if gevonden_datums:
+            return max(gevonden_datums)
+        return None
+>>>>>>> new-branch-name
     except Exception as e:
         logging.error(f"Fout bij zoeken datum: {str(e)}")
         return None
@@ -989,10 +1045,18 @@ def process_pdfs(template_path, pdf_files):
             logging.error("No valid PDFs with dates found")
             return False
         
+<<<<<<< HEAD
         # Generate unique output filename
         output_path = generate_unique_output_filename()
         
         # Create output file from template
+=======
+        # Create output file from template with timestamp
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        output_path = f'financial_analysis_{timestamp}.xlsx'
+        if os.path.exists(output_path):
+            os.unlink(output_path)
+>>>>>>> new-branch-name
         shutil.copy2(template_path, output_path)
         logging.info(f"Created new output file: {output_path}")
         
@@ -1001,12 +1065,12 @@ def process_pdfs(template_path, pdf_files):
         
         # Process each PDF and write to the appropriate column
         for i, (pdf_file, datum) in enumerate(pdf_with_dates):
-            if i >= 3:  # Only process the three most recent PDFs
+            if i >= 5:  # Only process the five most recent PDFs
                 break
                 
             try:
-                # Map the PDFs to specific columns (F for most recent, E for second, D for oldest)
-                kolom = chr(ord('F') - i)  # F, E, D
+                # Map the PDFs to specific columns (F for most recent, E for second, etc.)
+                kolom = chr(ord('F') - i)  # F, E, D, C, B
                 
                 # Process the PDF for both result and balance data
                 resultaten_sommen, resultaten_omschrijvingen, resultaten_codes = verwerk_pdf_sectie(pdf_file, resultaten_mapping, resultaten_cat)
@@ -1017,7 +1081,7 @@ def process_pdfs(template_path, pdf_files):
                 balans_data = maak_dataframe(balans_sommen, balans_omschrijvingen, balans_codes, prefix="B")
                 
                 # Export to template
-                success = export_naar_template(resultaten_data, balans_data, template_path, output_path, kolom, datum, pdf_with_dates[:3])
+                success = export_naar_template(resultaten_data, balans_data, template_path, output_path, kolom, datum, pdf_with_dates[:5])
                 if not success:
                     logging.error(f"Failed to export data to column {kolom}")
                     return False
