@@ -208,9 +208,16 @@ class FinancialAnalysisGUI:
         try:
             success = self.process_callback(self.template_file, self.pdf_files)
             if success:
-                self.output_file = os.path.join(os.getcwd(), 'financial_analysis.xlsx')
-                messagebox.showinfo("Success", "Financial analysis completed successfully!")
-                self.open_output_btn.configure(state="normal")
+                # Find the most recent financial_analysis_*.xlsx file
+                output_files = [f for f in os.listdir('.') if f.startswith('financial_analysis_') and f.endswith('.xlsx')]
+                if output_files:
+                    # Sort by modification time, most recent first
+                    output_files.sort(key=lambda x: os.path.getmtime(x), reverse=True)
+                    self.output_file = output_files[0]
+                    messagebox.showinfo("Success", "Financial analysis completed successfully!")
+                    self.open_output_btn.configure(state="normal")
+                else:
+                    messagebox.showerror("Error", "Output file not found!")
             else:
                 messagebox.showerror("Error", "An error occurred during processing. Check parser.log for details.")
         except Exception as e:

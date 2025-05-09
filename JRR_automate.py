@@ -801,8 +801,9 @@ def process_pdfs(template_path, pdf_files):
             logging.error("No valid PDFs with dates found")
             return False
         
-        # Create output file from template
-        output_path = 'financial_analysis.xlsx'
+        # Create output file from template with timestamp
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        output_path = f'financial_analysis_{timestamp}.xlsx'
         if os.path.exists(output_path):
             os.unlink(output_path)
         shutil.copy2(template_path, output_path)
