@@ -64,7 +64,7 @@ class FinancialAnalysisGUI:
         self.clear_template_btn.grid(row=0, column=2, padx=5)
         
         # PDF Files Section
-        pdf_frame = ttk.LabelFrame(self.root, text="PDF Files (Max 3)", padding=10)
+        pdf_frame = ttk.LabelFrame(self.root, text="PDF Files (Max 5)", padding=10)
         pdf_frame.grid(row=1, column=0, padx=10, pady=5, sticky="ew")
         pdf_frame.grid_columnconfigure(0, weight=1)
         
@@ -176,8 +176,8 @@ class FinancialAnalysisGUI:
     
     def _add_pdf(self, path: str):
         """Add a PDF file to the list"""
-        if len(self.pdf_files) >= 3:
-            messagebox.showwarning("Warning", "Maximum 3 PDF files allowed")
+        if len(self.pdf_files) >= 5:
+            messagebox.showwarning("Warning", "Maximum 5 PDF files allowed")
             return
         
         if path not in self.pdf_files:

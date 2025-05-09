@@ -838,12 +838,12 @@ def process_pdfs(template_path, pdf_files):
         
         # Process each PDF and write to the appropriate column
         for i, (pdf_file, datum) in enumerate(pdf_with_dates):
-            if i >= 3:  # Only process the three most recent PDFs
+            if i >= 5:  # Only process the five most recent PDFs
                 break
                 
             try:
-                # Map the PDFs to specific columns (F for most recent, E for second, D for oldest)
-                kolom = chr(ord('F') - i)  # F, E, D
+                # Map the PDFs to specific columns (H for most recent, G for second, etc.)
+                kolom = chr(ord('H') - i)  # H, G, F, E, D
                 
                 # Process the PDF for both result and balance data
                 resultaten_sommen, resultaten_omschrijvingen, resultaten_codes = verwerk_pdf_sectie(pdf_file, resultaten_mapping, resultaten_cat)
@@ -854,7 +854,7 @@ def process_pdfs(template_path, pdf_files):
                 balans_data = maak_dataframe(balans_sommen, balans_omschrijvingen, balans_codes, prefix="B")
                 
                 # Export to template
-                success = export_naar_template(resultaten_data, balans_data, template_path, output_path, kolom, datum, pdf_with_dates[:3])
+                success = export_naar_template(resultaten_data, balans_data, template_path, output_path, kolom, datum, pdf_with_dates[:5])
                 if not success:
                     logging.error(f"Failed to export data to column {kolom}")
                     return False
