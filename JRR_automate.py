@@ -1,6 +1,7 @@
 import pdfplumber
 import re
 import os
+import csv
 from pathlib import Path
 from decimal import Decimal
 from collections import defaultdict
@@ -37,7 +38,7 @@ resultaten_cat = [
     ("D", "74", "Andere bedrijfsopbrengsten"),
     
     # Bedrijfskosten
-    ("E", "60", "Handelsg., grond & hulpst."),
+    ("E", "600/8", "Handelsg., grond & hulpst."),
     ("F", "609", "Wijzigingen in de voorraad"),
     ("G", "61", "Diensten en diverse goed."),
     ("H", "62", "Bezoldig., soc. lasten en pensioen."),
@@ -90,7 +91,6 @@ balans_cat = [
     ("BG", "27", "Activa in aanbouw en vooruitbetal."),
     
     # FINANCIËLE VASTE ACTIVA
-    ("BG2", "28", "Financiële vaste activa"),
     ("BH", "280", "Verbonden ondernemingen - Deelnemingen"),
     ("BI", "281", "Verbonden ondernemingen - Vorderingen"),
     ("BJ", "282", "Ondernemingen met deelnemingsverh. - Deelnemingen"),
@@ -259,7 +259,7 @@ def vind_datum_in_pdf(pdf_pad):
             ('%m/%Y', r'\b\d{2}/\d{4}\b'),  # MM/YYYY
             ('%Y-%m', r'\b\d{4}-\d{2}\b'),  # YYYY-MM
             ('%Y/%m', r'\b\d{4}/\d{2}\b'),  # YYYY/MM
-            ('%m.\d{4}', r'\b\d{2}\.\d{4}\b'),  # MM.YYYY
+            ('%m.%Y', r'\b\d{2}\.\d{4}\b'),  # MM.YYYY - Fixed escape sequence
         ]
 
         # Additional patterns to check for Belgian date formats
@@ -408,7 +408,7 @@ def verwerk_pdf_sectie(pdf_pad, mapping, categorieen):
             # Find the category for this account
             cat_letter, _ = vind_categorie(rekening, mapping)
             if cat_letter:
-                sommen[cat_letter] += bedrag
+                sommen[cat_letter] = bedrag
                 logging.debug(f"Added {bedrag} to category {cat_letter} for account {rekening}")
 
         return sommen, omschrijvingen, rekening_codes
@@ -611,135 +611,56 @@ def extract_rekeningcodes_from_pdf(pdf_pad):
         return {}, False, {}
 
 def create_overview_sheet(wb, pdf_with_dates):
-    """Create or update the Overview sheet with rekeningcodes and values from PDFs"""
+    """Create an overview sheet with account codes from all PDFs"""
     try:
-        # Create new sheet or get existing one
-        sheet_name = "Overview"
-        counter = 1
-        while sheet_name in wb.sheetnames:
-            sheet_name = f"Overview_{counter}"
-            counter += 1
-        
-        ws = wb.create_sheet(sheet_name)
-        
-        # Process PDFs in chronological order (oldest to newest)
-        sorted_pdfs = sorted(pdf_with_dates, key=lambda x: x[1])
+        # Create a new sheet for the overview
+        overview_sheet = wb.create_sheet(title='Overview')
         
         # Set up headers
-        headers = ["Prefix", "Rekeningcode", "Omschrijving", "Type", "Level"]
-        # Add dates from PDFs as headers
-        for _, date in sorted_pdfs:
-            headers.append(date.strftime("%d-%m-%Y"))
-            
-        for col, header in enumerate(headers, 1):
-            ws.cell(row=1, column=col, value=header)
-            # Make headers bold and add light grey background
-            cell = ws.cell(row=1, column=col)
-            cell.font = openpyxl.styles.Font(bold=True)
-            cell.fill = openpyxl.styles.PatternFill(start_color='D3D3D3', end_color='D3D3D3', fill_type='solid')
+        overview_sheet['A1'] = 'Account Code'
+        overview_sheet['B1'] = 'Description'
         
-        # Extract all unique rekeningcodes and their descriptions
-        all_codes = {}
-        pdf_values = {}
-        is_parent = {}  # Track which codes are parent accounts
-        account_children = {}  # Track children of each parent account
+        # Collect all unique account codes
+        all_codes = set()
         
-        for pdf_file, date in sorted_pdfs:
-            logging.info(f"Processing PDF {pdf_file} for Overview sheet")
-            codes, is_nbb_format, parent_accounts = extract_rekeningcodes_from_pdf(pdf_file)
-            pdf_values[date] = codes
-            logging.info(f"Found {len(codes)} codes in PDF {pdf_file}")
-            
-            # Mark parent accounts
-            if is_nbb_format:
-                for parent, children in parent_accounts.items():
-                    is_parent[parent] = True
-                    account_children[parent] = children
-            
-            for code, (desc, value) in codes.items():
-                if code not in all_codes or (desc and not all_codes[code]):
-                    all_codes[code] = desc
-                    logging.debug(f"Added/Updated code {code} with description: {desc}")
-                    
-                # If we don't have info about whether this is a parent, default to False
-                if code not in is_parent:
-                    is_parent[code] = False
-
-        # Determine account levels
-        account_levels = {}
-        for code in all_codes:
-            # Base level is determined by code length
-            if len(code) <= 2:
-                account_levels[code] = 1
-            elif len(code) == 3:
-                account_levels[code] = 2
-            else:
-                account_levels[code] = 3
+        # Process each file
+        for pdf_path in pdf_with_dates:
+            logging.info(f"Processing {pdf_path} for Overview sheet")
+            try:
+                if pdf_path.lower().endswith('.csv'):
+                    # For CSV files, extract codes from the first column
+                    with open(pdf_path, 'r', encoding='utf-8') as f:
+                        reader = csv.reader(f)
+                        for row in reader:
+                            if len(row) >= 1:
+                                account = row[0].strip('"')
+                                if account.replace('/', '').isdigit():
+                                    all_codes.add(account)
+                else:
+                    # For PDF files, use the existing extraction method
+                    try:
+                        codes = extract_rekeningcodes_from_pdf(pdf_path)
+                        all_codes.update(codes)
+                        logging.info(f"Found {len(codes)} codes in PDF {pdf_path}")
+                    except Exception as e:
+                        logging.error(f"Fout bij extractie rekeningcodes uit PDF {pdf_path}: {str(e)}")
+            except Exception as e:
+                logging.error(f"Error processing file {pdf_path} for Overview: {str(e)}")
+                continue
         
-        # Sort rekeningcodes
-        sorted_codes = sorted(all_codes.keys(), key=lambda x: (x[:2], len(x), x))
-        logging.info(f"Total unique codes to be added to Overview: {len(sorted_codes)}")
+        logging.info(f"Total unique codes to be added to Overview: {len(all_codes)}")
         
-        # Populate the sheet
-        for row, code in enumerate(sorted_codes, 2):
-            # Prefix (first two digits)
-            ws.cell(row=row, column=1, value=code[:2])
-            
-            # Full rekeningcode
-            ws.cell(row=row, column=2, value=code)
-            
-            # Description
-            ws.cell(row=row, column=3, value=all_codes[code])
-            
-            # Account type
-            account_type = "Parent" if is_parent.get(code, False) else "Detail"
-            ws.cell(row=row, column=4, value=account_type)
-            
-            # Account level
-            ws.cell(row=row, column=5, value=account_levels.get(code, 3))
-            
-            # Format parent accounts with bold
-            if is_parent.get(code, False):
-                for col in range(1, 6):
-                    cell = ws.cell(row=row, column=col)
-                    cell.font = openpyxl.styles.Font(bold=True)
-                    # Light background for parent accounts
-                    cell.fill = openpyxl.styles.PatternFill(start_color='F0F0F0', end_color='F0F0F0', fill_type='solid')
-            
-            # Values from each PDF - store raw values without formatting
-            for col, (pdf_file, date) in enumerate(sorted_pdfs, 6):
-                if date in pdf_values and code in pdf_values[date]:
-                    value = float(pdf_values[date][code][1])  # Convert Decimal to float
-                    ws.cell(row=row, column=col, value=value)
-                    
-                    # Apply bold formatting to parent account values
-                    if is_parent.get(code, False):
-                        cell = ws.cell(row=row, column=col)
-                        cell.font = openpyxl.styles.Font(bold=True)
-                        cell.fill = openpyxl.styles.PatternFill(start_color='F0F0F0', end_color='F0F0F0', fill_type='solid')
-                    
-                    logging.debug(f"Added value {value} for code {code} from PDF {pdf_file}")
-
-        # Auto-adjust column widths
-        for col in range(1, len(headers) + 1):
-            max_length = 0
-            for cell in ws[get_column_letter(col)]:
-                try:
-                    if len(str(cell.value)) > max_length:
-                        max_length = len(str(cell.value))
-                except:
-                    pass
-            adjusted_width = (max_length + 2)
-            ws.column_dimensions[get_column_letter(col)].width = adjusted_width
-            
-        # Add a filter to the headers
-        ws.auto_filter.ref = f"A1:{get_column_letter(len(headers))}{len(sorted_codes) + 1}"
-
-        logging.info(f"Successfully created {sheet_name} sheet with {len(sorted_codes)} rows")
-        return True
+        # Sort the codes and add to sheet
+        sorted_codes = sorted(all_codes)
+        for idx, code in enumerate(sorted_codes, start=2):  # Start from row 2
+            overview_sheet[f'A{idx}'] = code
+        
+        logging.info(f"Successfully created Overview sheet with {len(sorted_codes)} rows")
+        return overview_sheet
+        
     except Exception as e:
         logging.error(f"Error creating Overview sheet: {str(e)}")
-        return False
+        raise
 
 def export_naar_template(resultaten_data, balans_data, template_pad, output_pad, kolom, datum=None, pdf_with_dates=None):
     """Exporteert alle categorieën naar template Excel met specifieke kolom, behoudt bestaande waarden en formules"""
@@ -785,21 +706,10 @@ def export_naar_template(resultaten_data, balans_data, template_pad, output_pad,
             rek = data['Rekening']
             waarde_str = data['Totaal (€)']
             
-            # Special handling for account code 14
+            # Account 14 is now mapped directly to 140 or 141 in parse_csv_file,
+            # so we don't need to handle it specially here
             if rek == '14':
-                try:
-                    waarde = convert_currency_to_float(waarde_str)
-                    if waarde >= 0:
-                        # Positive value should go to account 140
-                        rek = '140'
-                        logging.info(f"Account 14 has positive value {waarde}, allocating to 140 (Overgedragen winst)")
-                    else:
-                        # Negative value should go to account 141, but make it positive
-                        rek = '141'
-                        waarde_str = str(abs(waarde))
-                        logging.info(f"Account 14 has negative value {waarde}, allocating to 141 (Overgedragen verlies)")
-                except Exception as e:
-                    logging.error(f"Error processing account 14: {str(e)}")
+                continue
             
             # Bepaal de doelcel op basis van de rekeningcode
             if rek in categorie_naar_cel:
@@ -818,10 +728,6 @@ def export_naar_template(resultaten_data, balans_data, template_pad, output_pad,
                     # Special case for '670/3' (Belastingen) - always make it negative
                     if rek == '670/3' and waarde > 0:
                         waarde = -waarde
-                    
-                    # Special case for '141' (Overgedragen verlies) - should always be positive in the output
-                    if rek == '141' and waarde < 0:
-                        waarde = abs(waarde)
                     
                     # Apply sign conversion logic for cost rows if rekening 60 is negative
                     row_num = int(doel_cel[1:]) if len(doel_cel) > 1 else 0
@@ -879,7 +785,7 @@ categorie_naar_cel = {
     '72': 'C150',    # Geproduceerde vaste activa
     '74': 'C151',    # Andere bedrijfsopbrengsten
     
-    '60': 'C157',    # Handelsgoederen, grond- en hulpstoffen
+    '600/8': 'C157',    # Handelsgoederen, grond- en hulpstoffen
     '609': 'C158',   # Wijzigingen in de voorraad
     '61': 'C159',    # Diensten en diverse goederen
     '62': 'C160',    # Bezoldigingen, sociale lasten en pensioenen
@@ -922,7 +828,6 @@ categorie_naar_cel = {
     '25': 'C25',     # Leasing en soortgelijke rechten
     '26': 'C26',     # Overige materiële vaste activa
     '27': 'C27',     # Activa in aanbouw en vooruitbetalingen
-    '28': 'C29',     # Financiële vaste activa
     
     '280': 'C31',    # Verbonden ondernemingen - Deelnemingen
     '281': 'C32',    # Verbonden ondernemingen - Vorderingen
@@ -956,6 +861,7 @@ categorie_naar_cel = {
     '130': 'C86',    # Wettelijke reserve
     '131': 'C87',    # Onbeschikbare reserves
     '132': 'C88',    # Belastingvrije reserves
+    '133': 'C89',    # Beschikbare reserves
     '14': 'C90',     # Overgedragen resultaat
     '140': 'C91',    # Overgedragen winst
     '141': 'C92',    # Overgedragen verlies
@@ -995,84 +901,340 @@ def generate_unique_output_filename(base_name='financial_analysis'):
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     return f'{base_name}_{timestamp}.xlsx'
 
-# Process PDF files
-def process_pdfs(template_path, pdf_files):
+def parse_csv_file(csv_path, mapping, categorieen):
+    """Parse a CSV file and extract financial data"""
     try:
-        # First, get dates for all PDFs and sort them
-        pdf_with_dates = []
-        nbb_format_detected = False
+        sommen = defaultdict(Decimal)
+        omschrijvingen = {cat[0]: cat[2] for cat in categorieen}  # Initialize with all categories
+        rekening_codes = {cat[0]: cat[1] for cat in categorieen}  # Initialize with all codes
         
-        for pdf_file in pdf_files:
-            try:
-                datum = vind_datum_in_pdf(pdf_file)
-                if datum:
-                    # Check if this is NBB format
-                    _, is_nbb_format, _ = extract_rekeningcodes_from_pdf(pdf_file)
-                    if is_nbb_format:
-                        nbb_format_detected = True
-                        logging.info(f"Detected NBB format in {pdf_file}")
+        # Dictionary to store all accounts and their values
+        all_accounts = {}
+        summary_accounts = {}
+        
+        # First, find the accounting period end date
+        datum = None
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            reader = csv.reader(f)
+            for row in reader:
+                if len(row) == 2 and row[0].strip('"') == "Accounting period end date":
+                    try:
+                        datum = datetime.strptime(row[1].strip('"'), "%Y-%m-%d")
+                        break
+                    except ValueError:
+                        logging.warning(f"Could not parse date from CSV: {row[1]}")
+        
+        # First pass: collect all accounts and identify summary accounts
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            reader = csv.reader(f)
+            for row in reader:
+                if len(row) != 2:  # Skip non-data rows
+                    continue
                     
-                    pdf_with_dates.append((pdf_file, datum))
+                account = row[0].strip('"')
+                value_str = row[1].strip('"')
+                
+                # Skip if not a valid account number
+                if not account.replace('/', '').isdigit():
+                    continue
+                    
+                try:
+                    value = Decimal(str(value_str).replace(',', '.'))
+                except (ValueError, TypeError, decimal.InvalidOperation):
+                    continue
+                
+                all_accounts[account] = value
+                
+                # Identify summary accounts (e.g., "600/8", "10/49")
+                if '/' in account:
+                    summary_accounts[account] = value
+                    
+                # Special handling for 600/8 - store it directly in the appropriate category
+                if account == "600/8":
+                    cat_letter, _ = vind_categorie(account, mapping)
+                    if cat_letter:
+                        sommen[cat_letter] = value
+                        logging.debug(f"Added summary account {account} with value {value} to category {cat_letter}")
+        
+        # Handle special cases for accounts 76 and 66
+        if "76" in all_accounts:
+            # For account 76, map to category X (764/9)
+            for cat in categorieen:
+                if cat[1] == "764/9":
+                    sommen[cat[0]] = all_accounts["76"]
+                    logging.debug(f"Directly mapped account 76 with value {all_accounts['76']} to category {cat[0]} (764/9)")
+                    break
+        
+        if "66" in all_accounts:
+            # For account 66, map to category AC (664/8)
+            for cat in categorieen:
+                if cat[1] == "664/8":
+                    sommen[cat[0]] = all_accounts["66"]
+                    logging.debug(f"Directly mapped account 66 with value {all_accounts['66']} to category {cat[0]} (664/8)")
+                    break
+                    
+        # Process standard accounts and their values to avoid losing data
+        for account, value in all_accounts.items():
+            cat_letter, _ = vind_categorie(account, mapping)
+            if cat_letter:
+                if account in ["22", "23", "24", "430/8"]:  # Preserve these accounts' values
+                    sommen[cat_letter] = value
+                    logging.debug(f"Preserved value for account {account} with value {value} to category {cat_letter}")
+                
+        # CORRECTIONS:
+        
+        # BH: "280" - Verbonden ondernemingen - Deelnemingen
+        if "280" in all_accounts:
+            for cat in categorieen:
+                if cat[1] == "280":
+                    sommen[cat[0]] = all_accounts["280"]
+                    logging.debug(f"Mapped account 280 with value {all_accounts['280']} to category {cat[0]}")
+                    break
+                    
+        # BM: "285/8" - Use this value and zero out others in range BI-BL
+        if "285/8" in all_accounts:
+            for cat in categorieen:
+                if cat[1] == "285/8":
+                    sommen[cat[0]] = all_accounts["285/8"]
+                    logging.debug(f"Mapped account 285/8 with value {all_accounts['285/8']} to category {cat[0]}")
+                    break
+        
+        # Zero out categories BI to BL (281-284)
+        for cat in categorieen:
+            if cat[1] in ["281", "282", "283", "284"]:
+                sommen[cat[0]] = Decimal(0)
+                logging.debug(f"Set category {cat[0]} ({cat[1]}) to 0")
+                
+        # BP to BU: Handle vooraden - use "34" for inventory
+        if "34" in all_accounts:
+            for cat in categorieen:
+                # Map account 34 to BS category
+                if cat[1] == "34":
+                    sommen[cat[0]] = all_accounts["34"]
+                    logging.debug(f"Mapped account 34 with value {all_accounts['34']} to category {cat[0]}")
+                    break
+                    
+        # Zero out other inventory accounts
+        for cat in categorieen:
+            if cat[1] in ["30/31", "32", "33", "35", "36"] and cat[1] != "34":
+                sommen[cat[0]] = Decimal(0)
+                logging.debug(f"Set inventory category {cat[0]} ({cat[1]}) to 0")
+        
+        # CD-CF: "110" instead of individual accounts
+        if "110" in all_accounts:
+            for cat in categorieen:
+                if cat[1] == "12":  # Map 110 value to herwaarderingsmeerwaarden (12)
+                    sommen[cat[0]] = all_accounts["110"]
+                    logging.debug(f"Mapped account 110 with value {all_accounts['110']} to category {cat[0]} (12)")
+                    break
+        
+        # CG-CJ: Handle reserves - use "133" for available reserves
+        if "133" in all_accounts:
+            for cat in categorieen:
+                if cat[1] == "133":
+                    sommen[cat[0]] = all_accounts["133"]
+                    logging.debug(f"Mapped account 133 with value {all_accounts['133']} to category {cat[0]}")
+                    break
+                    
+        # Zero out other reserve accounts
+        for cat in categorieen:
+            if cat[1] in ["130", "131", "132"] and cat[1] != "133":
+                sommen[cat[0]] = Decimal(0)
+                logging.debug(f"Set reserve category {cat[0]} ({cat[1]}) to 0")
+        
+        # CJ2: "14" - Overgedragen resultaat - map to 140 if positive, 141 if negative
+        if "14" in all_accounts:
+            value = all_accounts["14"]
+            if value >= 0:
+                # If positive, map to 140 (Overgedragen winst)
+                for cat in categorieen:
+                    if cat[1] == "140":
+                        sommen[cat[0]] = value
+                        logging.debug(f"Mapped account 14 with positive value {value} to category {cat[0]} (140)")
+                        break
+            else:
+                # If negative, map to 141 (Overgedragen verlies) as positive value
+                for cat in categorieen:
+                    if cat[1] == "141":
+                        sommen[cat[0]] = abs(value)  # Store as positive in 141
+                        logging.debug(f"Mapped account 14 with negative value {value} as positive to category {cat[0]} (141)")
+                        break
+        
+        # CT to CW: "171" to "174" - handle "173" and zero out others
+        if "173" in all_accounts:
+            for cat in categorieen:
+                if cat[1] == "173":
+                    sommen[cat[0]] = all_accounts["173"]
+                    logging.debug(f"Mapped account 173 with value {all_accounts['173']} to category {cat[0]}")
+                    break
+                    
+        # Zero out other long-term loan accounts
+        for cat in categorieen:
+            if cat[1] in ["171", "172", "174"] and cat[1] != "173":
+                sommen[cat[0]] = Decimal(0)
+                logging.debug(f"Set loan category {cat[0]} ({cat[1]}) to 0")
+        
+        # Second pass: map accounts to categories
+        for account, value in all_accounts.items():
+            # Skip processing if this is a sub-account of a summary account that we'll use
+            skip_account = False
+            for summary_acc in summary_accounts:
+                if '/' in summary_acc:
+                    base, end = summary_acc.split('/')
+                    if len(end) == 1:  # Case like "600/8"
+                        start_num = int(base)
+                        end_num = int(base[:-1] + end)
+                        if account != summary_acc and account.isdigit():
+                            acc_num = int(account)
+                            if start_num <= acc_num <= end_num:
+                                skip_account = True
+                                break
+            
+            if skip_account:
+                continue
+            
+            # Find the category for this account
+            cat_letter, cat_desc = vind_categorie(account, mapping)
+            if cat_letter:
+                # Special handling for specific categories
+                if account == "70":  # A: Revenue
+                    sommen[cat_letter] = value
+                elif account == "74":  # D: Other operating income (use main account)
+                    sommen[cat_letter] = value
+                elif account == "609":  # F: Direct match
+                    sommen[cat_letter] = value
+                elif account == "61":  # G: Direct match
+                    sommen[cat_letter] = value
+                elif account == "62":  # H: Use main account
+                    sommen[cat_letter] = value
+                elif account == "630":  # I: Direct match
+                    sommen[cat_letter] = value
+                elif account == "631/4":  # J: Use summary value
+                    sommen[cat_letter] = value
+                elif account == "640/8":  # L: Use summary value
+                    sommen[cat_letter] = value
+                elif account == "751":  # O: Direct match
+                    sommen[cat_letter] = value
+                elif account == "752/9":  # P: Use summary value
+                    sommen[cat_letter] = value
+                elif account == "650":  # Q: Direct match
+                    sommen[cat_letter] = value
+                elif account == "652/9":  # S: Use summary value
+                    sommen[cat_letter] = value
+                elif account == "670/3":  # AE: Use summary value
+                    sommen[cat_letter] = value
+                # Balance sheet categories that weren't handled in the special cases above
+                elif account == "54/58":  # CA: Use summary value
+                    sommen[cat_letter] = value
+                elif account == "490/1":  # CB: Use summary value
+                    sommen[cat_letter] = value
+                elif account == "40":  # BW: Direct match
+                    sommen[cat_letter] = value
+                elif account == "41":  # BX: Direct match
+                    sommen[cat_letter] = value
+                elif account == "42":  # DB: Direct match
+                    sommen[cat_letter] = value
+                elif account == "46":  # DG: Direct match
+                    sommen[cat_letter] = value
+                elif account == "454/9":  # DI: Use summary value
+                    sommen[cat_letter] = value
+                elif account == "47/48":  # DJ: Use summary value
+                    sommen[cat_letter] = value
+                
+                logging.debug(f"Added {value} to category {cat_letter} for account {account}")
+        
+        # Create the final dictionaries with all categories
+        sommen_dict = {cat[0]: sommen.get(cat[0], Decimal("0")) for cat in categorieen}
+        
+        return sommen_dict, omschrijvingen, rekening_codes
+    except Exception as e:
+        logging.error(f"Error parsing CSV file {csv_path}: {str(e)}")
+        raise
+
+def process_file(file_path, mapping, categorieen):
+    """Process either a PDF or CSV file and return the extracted data"""
+    try:
+        if file_path.lower().endswith('.pdf'):
+            return verwerk_pdf_sectie(file_path, mapping, categorieen)
+        elif file_path.lower().endswith('.csv'):
+            return parse_csv_file(file_path, mapping, categorieen)
+        else:
+            raise ValueError(f"Unsupported file type: {file_path}")
+    except Exception as e:
+        logging.error(f"Error processing file {file_path}: {str(e)}")
+        raise
+
+def process_pdfs(template_path, input_files):
+    """Process PDF and CSV files and export to template"""
+    try:
+        # Validate input files
+        if not input_files:
+            raise ValueError("No input files provided")
+        if not template_path or not os.path.exists(template_path):
+            raise ValueError("Invalid template path")
+            
+        # Create mappings
+        resultaten_mapping = maak_categorie_mapping(resultaten_cat)
+        balans_mapping = maak_categorie_mapping(balans_cat)
+        
+        # Process each file
+        all_data = []
+        pdf_with_dates = {}
+        
+        for file_path in input_files:
+            try:
+                if file_path.lower().endswith('.pdf'):
+                    # Extract date from PDF
+                    datum = vind_datum_in_pdf(file_path)
+                    if datum:
+                        pdf_with_dates[file_path] = datum
+                elif file_path.lower().endswith('.csv'):
+                    # For CSV files, extract date from the file content
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        reader = csv.reader(f)
+                        for row in reader:
+                            if len(row) == 2 and row[0].strip('"') == "Accounting period end date":
+                                try:
+                                    datum = datetime.strptime(row[1].strip('"'), "%Y-%m-%d")
+                                    pdf_with_dates[file_path] = datum
+                                    break
+                                except ValueError:
+                                    logging.warning(f"Could not parse date from CSV: {row[1]}")
                 else:
-                    logging.error(f"No valid date found in {pdf_file}")
-            except Exception as e:
-                logging.error(f"Error processing date from {pdf_file}: {str(e)}")
-        
-        # Sort PDFs by date, most recent first
-        pdf_with_dates.sort(key=lambda x: x[1], reverse=True)
-        
-        if len(pdf_with_dates) < 1:
-            logging.error("No valid PDFs with dates found")
-            return False
-        
-        # Generate unique output filename
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_path = f'financial_analysis_{timestamp}.xlsx'
-        
-        # Create output file from template
-        if os.path.exists(output_path):
-            os.unlink(output_path)
-        shutil.copy2(template_path, output_path)
-        logging.info(f"Created new output file: {output_path}")
-        
-        if nbb_format_detected:
-            logging.info("NBB format detected - processing using Belgian NBB format rules")
-        
-        # Process each PDF and write to the appropriate column
-        for i, (pdf_file, datum) in enumerate(pdf_with_dates):
-            if i >= 5:  # Only process the five most recent PDFs
-                break
-                
-            try:
-                # Map the PDFs to specific columns (F for most recent, E for second, etc.)
-                kolom = chr(ord('F') - i)  # F, E, D, C, B
-                
-                # Process the PDF for both result and balance data
-                resultaten_sommen, resultaten_omschrijvingen, resultaten_codes = verwerk_pdf_sectie(pdf_file, resultaten_mapping, resultaten_cat)
-                balans_sommen, balans_omschrijvingen, balans_codes = verwerk_pdf_sectie(pdf_file, balans_mapping, balans_cat)
-                
-                # Create DataFrames
-                resultaten_data = maak_dataframe(resultaten_sommen, resultaten_omschrijvingen, resultaten_codes)
-                balans_data = maak_dataframe(balans_sommen, balans_omschrijvingen, balans_codes, prefix="B")
-                
-                # Export to template
-                success = export_naar_template(resultaten_data, balans_data, template_path, output_path, kolom, datum, pdf_with_dates[:5])
-                if not success:
-                    logging.error(f"Failed to export data to column {kolom}")
-                    return False
+                    logging.warning(f"Skipping unsupported file: {file_path}")
+                    continue
                     
-                logging.info(f"Successfully processed {pdf_file} for column {kolom}")
+                # Process the file
+                resultaten_data = process_file(file_path, resultaten_mapping, resultaten_cat)
+                balans_data = process_file(file_path, balans_mapping, balans_cat)
+                
+                # Create data frames
+                resultaten_df = maak_dataframe(*resultaten_data)
+                balans_df = maak_dataframe(*balans_data, prefix="B")
+                
+                all_data.append((resultaten_df, balans_df))
                 
             except Exception as e:
-                logging.error(f"Error processing {pdf_file}: {str(e)}")
-                return False
+                logging.error(f"Error processing file {file_path}: {str(e)}")
+                raise
+            
+        # Generate output filename
+        output_path = generate_unique_output_filename()
         
-        logging.info(f"Successfully processed all PDFs. Output saved to: {output_path}")
-        return True
-    
+        # Export data to template
+        for idx, (resultaten_data, balans_data) in enumerate(all_data, start=1):
+            kolom = get_column_letter(idx * 2)  # Skip a column between datasets
+            export_naar_template(
+                resultaten_data, balans_data,
+                template_path, output_path,
+                kolom,
+                pdf_with_dates=pdf_with_dates
+            )
+            
+        return output_path
     except Exception as e:
         logging.error(f"Error in process_pdfs: {str(e)}")
-        return False
+        raise
 
 def identify_sum_accounts(rekeningcodes):
     """Identify parent/summary accounts that are the sum of other accounts.
