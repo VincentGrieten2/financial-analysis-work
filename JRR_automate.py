@@ -243,13 +243,8 @@ def vind_categorie(rekening, mapping):
 def vind_datum_in_pdf(pdf_pad):
     """Zoek naar een datum in het PDF bestand"""
     try:
-<<<<<<< HEAD
-        # First try full dates
-        datum_formaten = [
-=======
         # Day-level date formats
         dag_formaten = [
->>>>>>> new-branch-name
             ('%d-%m-%Y', r'\b\d{2}-\d{2}-\d{4}\b'),  # DD-MM-YYYY
             ('%d/%m/%Y', r'\b\d{2}/\d{2}/\d{4}\b'),  # DD/MM/YYYY
             ('%Y-%m-%d', r'\b\d{4}-\d{2}-\d{2}\b'),  # YYYY-MM-DD
@@ -258,14 +253,6 @@ def vind_datum_in_pdf(pdf_pad):
             ('%d %B %Y', r'\b\d{1,2} [A-Za-z]+ \d{4}\b'),  # DD Month YYYY
         ]
         
-<<<<<<< HEAD
-        # Additional patterns to check for Belgian date formats
-        belgian_date_patterns = [
-            r'\b(\d{1,2})(?:st|nd|rd|th)? ([A-Za-z]+) (\d{4})\b',  # 31st December 2023
-            r'\bper (\d{1,2})(?:\.| )(\d{1,2})(?:\.| )(\d{4})\b',  # per 31.12.2023 or per 31 12 2023
-            r'\bafgesloten op (\d{1,2})(?:\.| )(\d{1,2})(?:\.| )(\d{4})\b',  # afgesloten op 31.12.2023
-        ]
-=======
         # Month-level date formats
         maand_formaten = [
             ('%m-%Y', r'\b\d{2}-\d{4}\b'),  # MM-YYYY
@@ -274,9 +261,15 @@ def vind_datum_in_pdf(pdf_pad):
             ('%Y/%m', r'\b\d{4}/\d{2}\b'),  # YYYY/MM
             ('%m.\d{4}', r'\b\d{2}\.\d{4}\b'),  # MM.YYYY
         ]
+
+        # Additional patterns to check for Belgian date formats
+        belgian_date_patterns = [
+            r'\b(\d{1,2})(?:st|nd|rd|th)? ([A-Za-z]+) (\d{4})\b',  # 31st December 2023
+            r'\bper (\d{1,2})(?:\.| )(\d{1,2})(?:\.| )(\d{4})\b',  # per 31.12.2023 or per 31 12 2023
+            r'\bafgesloten op (\d{1,2})(?:\.| )(\d{1,2})(?:\.| )(\d{4})\b',  # afgesloten op 31.12.2023
+        ]
         
         gevonden_datums = []
->>>>>>> new-branch-name
         
         # Common Belgian months in Dutch and French for date parsing
         months_nl = {
@@ -290,7 +283,6 @@ def vind_datum_in_pdf(pdf_pad):
         }
 
         with pdfplumber.open(pdf_pad) as pdf:
-<<<<<<< HEAD
             all_text = []
             for page in pdf.pages[:3]:  # Only check first 3 pages to find date faster
                 try:
@@ -303,16 +295,19 @@ def vind_datum_in_pdf(pdf_pad):
 
             text = "\n".join(all_text)
             
-            # Check known date patterns
-            for fmt, pattern in datum_formaten:
+            # First try day-level formats
+            for fmt, pattern in dag_formaten:
                 matches = re.findall(pattern, text)
                 for match in matches:
                     try:
                         datum = datetime.strptime(match, fmt)
                         if 1900 <= datum.year <= 2100:  # Reasonable year range
-                            logging.info(f"Datum gevonden in {pdf_pad}: {datum}")
-                            return datum
-                    except Exception as e:
+                            # Check if it's the last day of the month
+                            volgende_maand = datum.replace(day=28) + timedelta(days=4)
+                            laatste_dag = volgende_maand - timedelta(days=volgende_maand.day)
+                            if datum.day == laatste_dag.day:
+                                gevonden_datums.append(datum)
+                    except ValueError:
                         continue
 
             # Check for Belgian specific date patterns
@@ -337,73 +332,58 @@ def vind_datum_in_pdf(pdf_pad):
                             
                             if 1 <= day <= 31 and 1 <= month <= 12 and 1900 <= year <= 2100:
                                 datum = datetime(year, month, day)
-                                logging.info(f"Belgian date format found in {pdf_pad}: {datum}")
-                                return datum
-                    except Exception as e:
-                        continue
-            
-            # Check for year/month patterns if no full date found - e.g., for annual reports
-            current_year = datetime.now().year
-            year_patterns = [
-                r'\b(20\d{2})\b',  # Find years in 2000-2099 range
-                r'\bBoekjaar (\d{4})\b',  # Boekjaar 2023
-                r'\bJaarrekening (\d{4})\b',  # Jaarrekening 2023
-            ]
-            
-            for pattern in year_patterns:
-                matches = re.findall(pattern, text, re.IGNORECASE)
-                for match in matches:
-                    try:
-                        year = int(match)
-                        if 1900 <= year <= current_year + 1:  # Reasonable year range
-                            # Assume it's the end of the year (31st December)
-                            datum = datetime(year, 12, 31)
-                            logging.info(f"Year found in {pdf_pad}, assuming 31 Dec: {datum}")
-                            return datum
-                    except Exception as e:
-                        continue
-                
-            # No date found
-            logging.warning(f"Geen datum gevonden in {pdf_pad}")
-            return None
-            
-=======
-            for page in pdf.pages:
-                text = page.extract_text()
-                if text:
-                    # First try to find day-level dates
-                    for datum_format, regex_pattern in dag_formaten:
-                        matches = re.findall(regex_pattern, text)
-                        for match in matches:
-                            try:
-                                datum = datetime.strptime(match, datum_format)
-                                # Controleer of het de laatste dag van de maand is
+                                # Check if it's the last day of the month
                                 volgende_maand = datum.replace(day=28) + timedelta(days=4)
                                 laatste_dag = volgende_maand - timedelta(days=volgende_maand.day)
                                 if datum.day == laatste_dag.day:
                                     gevonden_datums.append(datum)
-                            except ValueError:
-                                continue
-                    
-                    # If no day-level dates found with last day of month, try month-level dates
-                    if not gevonden_datums:
-                        for datum_format, regex_pattern in maand_formaten:
-                            matches = re.findall(regex_pattern, text)
-                            for match in matches:
-                                try:
-                                    # Parse the month and year
-                                    datum = datetime.strptime(match, datum_format)
-                                    # Convert to last day of the month
-                                    volgende_maand = datum.replace(day=28) + timedelta(days=4)
-                                    laatste_dag = volgende_maand - timedelta(days=volgende_maand.day)
-                                    gevonden_datums.append(laatste_dag)
-                                except ValueError:
-                                    continue
-        
-        if gevonden_datums:
-            return max(gevonden_datums)
-        return None
->>>>>>> new-branch-name
+                    except Exception:
+                        continue
+
+            # If no day-level dates found, try month-level formats
+            if not gevonden_datums:
+                for fmt, pattern in maand_formaten:
+                    matches = re.findall(pattern, text)
+                    for match in matches:
+                        try:
+                            # Parse the month and year
+                            datum = datetime.strptime(match, fmt)
+                            # Convert to last day of the month
+                            volgende_maand = datum.replace(day=28) + timedelta(days=4)
+                            laatste_dag = volgende_maand - timedelta(days=volgende_maand.day)
+                            gevonden_datums.append(laatste_dag)
+                        except ValueError:
+                            continue
+
+            # If still no dates found, check for year patterns
+            if not gevonden_datums:
+                current_year = datetime.now().year
+                year_patterns = [
+                    r'\b(20\d{2})\b',  # Find years in 2000-2099 range
+                    r'\bBoekjaar (\d{4})\b',  # Boekjaar 2023
+                    r'\bJaarrekening (\d{4})\b',  # Jaarrekening 2023
+                ]
+                
+                for pattern in year_patterns:
+                    matches = re.findall(pattern, text, re.IGNORECASE)
+                    for match in matches:
+                        try:
+                            year = int(match)
+                            if 1900 <= year <= current_year + 1:  # Reasonable year range
+                                # Assume it's the end of the year (31st December)
+                                datum = datetime(year, 12, 31)
+                                gevonden_datums.append(datum)
+                        except Exception:
+                            continue
+
+            if gevonden_datums:
+                # Return the most recent date found
+                return max(gevonden_datums)
+                
+            # No date found
+            logging.warning(f"Geen datum gevonden in {pdf_pad}")
+            return None
+
     except Exception as e:
         logging.error(f"Fout bij zoeken datum: {str(e)}")
         return None
@@ -1045,18 +1025,13 @@ def process_pdfs(template_path, pdf_files):
             logging.error("No valid PDFs with dates found")
             return False
         
-<<<<<<< HEAD
         # Generate unique output filename
-        output_path = generate_unique_output_filename()
-        
-        # Create output file from template
-=======
-        # Create output file from template with timestamp
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         output_path = f'financial_analysis_{timestamp}.xlsx'
+        
+        # Create output file from template
         if os.path.exists(output_path):
             os.unlink(output_path)
->>>>>>> new-branch-name
         shutil.copy2(template_path, output_path)
         logging.info(f"Created new output file: {output_path}")
         
